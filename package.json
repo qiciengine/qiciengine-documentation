@@ -1,0 +1,16 @@
+{
+  "name": "gitbook",
+  "devDependencies": {
+    "gitbook-plugin-anchor-navigation": "0.0.1"
+  },
+  "scripts": {
+    "install-cn": "sudo npm install -g gitbook-cli && gitbook install cn/api && gitbook install cn/manual",
+    "install-en": "sudo npm install -g gitbook-cli && gitbook install en/api && gitbook install en/manual",
+    "init-cn": "gitbook init cn/api && gitbook init cn/manual",
+    "init-en": "gitbook init en/api && gitbook init en/manual",
+    "build-api-cn": "gitbook serve cn/api",
+    "build-manual-cn": "gitbook serve cn/manual",
+    "build-api-en": "gitbook serve en/api",
+    "build-manual-en": "gitbook serve en/manual" 
+  }
+}

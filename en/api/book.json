@@ -1,0 +1,21 @@
+{
+    "title": "QICI Engine",
+    "variables" : {
+    "ENGINE_NAME" : "QICI Engine",
+    "CREATE_SCENE" : "Project -> New Scene",
+    "CREATE_UITEXT_MENU" : "GameObject -> Text",
+    "DOWNLOAD_URL" : "http://www.qiciengine.com/",
+    "ONLINE_URL" : "http://www.qiciengine.com"
+	},
+
+	"plugins": [
+	    "anchor-navigation"
+	],
+
+	"pluginsConfig": {
+	},
+
+	"styles": {
+        "website": "styles/website.css"
+    }
+}
