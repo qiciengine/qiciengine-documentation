@@ -5,3 +5,5 @@ en/manual/_book
 node_modules
 *.log
 *.out
+*.sublime-project
+*.sublime-workspace
