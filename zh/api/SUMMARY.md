@@ -61,7 +61,7 @@
     * [removeAll](signal/removeAll.md)
     * [dispatch](signal/dispatch.md)
 * [SignalBinding](signalbinding/README.md)
-* [StateManager](state/README.md)
+* [SceneManager](state/README.md)
     * [download](state/download.md)
     * [load](state/load.md)
 * [SoundManager](soundmanager/README.md)

@@ -104,7 +104,7 @@ self.game.assets.unload('Assets/sprites/panda.bin');
   2. 切换场景时，明确告知将旧场景资源全部清理掉：  
 ````javascript
 // 第二个clear参数为true将清除所有旧的资源
-self.game.state.load('nextState', true);
+self.game.scene.load('nextState', true);
 ````  
 
 需要注意的是，如果场景中有其他对象还引用本资源，资源是不会被立即回收的。当资源不被引用时自动进行垃圾回收。

@@ -1,7 +1,7 @@
-# qc.StateManager
+# qc.SceneManager
 
 ## 描述
-游戏场景的管理器，负责场景的加载。可以通过game.state访问本实例。
+游戏场景的管理器，负责场景的加载。可以通过game.scene访问本实例。
 
 ## 变量
 | 变量名 | 类型 |作用 |

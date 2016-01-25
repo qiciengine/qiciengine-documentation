@@ -29,7 +29,7 @@ __以上属性修改完毕后，记得点击“应用”按钮起效。__
 <video controls="controls" src="../video/change_settings.mp4"></video>  
 
 ## 场景列表
-* 所有Assets/state目录下的游戏场景都将在此窗口中显示
+* 所有Assets/scene目录下的游戏场景都将在此窗口中显示
 * 勾选所有需要发布的游戏场
 * 第一个勾选的为入口场景，运行时系统会自动加载，在入口场景一般会做游戏初始化、资源初始化等工作，通过拖拽可改变场景列表顺序：	
 ![](images/dnd.png) 

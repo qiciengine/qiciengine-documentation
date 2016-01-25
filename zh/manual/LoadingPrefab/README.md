@@ -23,11 +23,11 @@ var LoadingUI = qc.defineBehaviour('qc.demo.LoadingUI', qc.Behaviour, function()
 LoadingUI.prototype.awake = function() {
     var self = this;
     // 开始加载场景时显示预制
-    self.game.state.onStartLoad.add(function() {            
+    self.game.scene.onStartLoad.add(function() {            
         self.show();
     });
     // 场景加载完毕时隐藏预制
-    self.game.state.onEndLoad.add(function() {            
+    self.game.scene.onEndLoad.add(function() {            
         if (self.gameObject.visible) { 	        	
             var tweenAlpha = self.gameObject.getScript('qc.TweenAlpha');                
             if (tweenAlpha.enable) {
@@ -101,7 +101,7 @@ var NextScene = qc.defineBehaviour('qc.demo.NextScene', qc.Behaviour, function()
     scene: qc.Serializer.STRING
 });
 NextScene.prototype.onClick = function() {
-	this.game.state.load(this.scene);        
+	this.game.scene.load(this.scene);        
 };
 ````
 ![](images/nextState.png) 	

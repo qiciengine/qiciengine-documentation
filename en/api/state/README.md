@@ -1,8 +1,8 @@
-# qc.StateManager
+# qc.SceneManager
 
 ## Description
 Downloads or loads the scene.  
-This class represents a singleton object that can be accessed directly as `game.state`.   
+This class represents a singleton object that can be accessed directly as `game.scene`.   
 
 ## Variables
 | Variable | Type | Description |

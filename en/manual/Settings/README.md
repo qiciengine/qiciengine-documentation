@@ -25,7 +25,7 @@ Select __'Project/Settings...'__ from main menu
 <video controls="controls" src="../video/change_settings.mp4"></video>  
 
 ## Scene List
-* All scenes in Assets/state folder will be listed
+* All scenes in Assets/scene folder will be listed
 * Check all the scenes that you want to publish
 * The first checked scene will act as the entry scene of this game, that will be used to initialize game and load assets, you can change the order of scenes by-drag-and drop directly.	
 ![](images/dnd.png) 

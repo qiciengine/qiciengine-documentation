@@ -60,7 +60,8 @@ When using the default 'game' name, you can use the global game variable to refe
 | stage: [qc.Stage](../stage/README.md) |  Read only.[Stage](../stage/README.md) |
 | world: [qc.World](../world/README.md) | Read only. [Game World](../world/README.md) |
 | gs: [qc.GS](../gs/README.md) | Read only. [The connector of game server](../gs/README.md) |
-| state: [qc.StateManager](../state/README.md) | Read only. [Scenes Management](../state/README.md) |
+| state: [qc.StateManager](../state/README.md) | Obsolete. |
+| scene: [qc.SceneManager](../state/README.md) | Read only. [Scenes Management](../state/README.md) |
 | serializer: [qc.Serializer](../serializer/README.md) | Read only. [Serializer](../serializer/README.md) |
 | nodePool: [qc.NodePool](../nodepool/README.md) | Read only. [NodePool](../nodepool/README.md) |
 | storage: [qc.Storage](../storage/README.md) | Read only. [Local Storage Management](../storage/README.md) |

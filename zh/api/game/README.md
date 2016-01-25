@@ -63,7 +63,8 @@ qici.config 变量也在 StartGame.html 中定义，其中 gameInstance 默认�
 | camera: [qc.Camera](../camera/README.md) | 只读。[相机模块](../camera/README.md) |
 | world: [qc.World](../world/README.md) | 只读。[游戏世界](../world/README.md) |
 | gs: [qc.GS](../gs/README.md) | 只读。[游戏服务器交互模块](../gs/README.md) |
-| state: [qc.StateManager](../state/README.md) | 只读。[游戏场景管理](../state/README.md) |
+| state: [qc.SceneManager](../state/README.md) | 废弃，请使用scene |
+| scene: [qc.SceneManager](../state/README.md) | 只读。[游戏场景管理](../state/README.md) |
 | serializer: [qc.Serializer](../serializer/README.md) | 只读。[序列化相关模块](../serializer/README.md) |
 | nodePool: [qc.NodePool](../nodepool/README.md) | 只读。[对象池](../nodepool/README.md) |
 | storage: [qc.Storage](../storage/README.md) | 只读。[本地存储](../storage/README.md) |

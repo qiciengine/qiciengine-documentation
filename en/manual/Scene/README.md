@@ -4,14 +4,14 @@
 1. Select "Project/New Scene" (Command+M or Ctrl+M) from main menu to create a new scene
 2. Add game objects for this created scene
 3. Select "Project/Save Scene" (Command+S or Ctrl+S) from main menu to save current scene 
-4. The scene will be save in the Assets/state folder
+4. The scene will be save in the Assets/scene folder
 
-__Keep scene files in Assets/state folder, don't try to move them.__
+__Keep scene files in Assets/scene folder, don't try to move them.__
 
 <video controls="controls" src="../video/create_new_scene.mp4"></video>		
 
 ## Switch Scene
-1. Open the Assets/state folder in Project panel.
+1. Open the Assets/scene folder in Project panel.
 2. Double click the scene file that you want to switch
 
 <video controls="controls" src="../video/switch_state.mp4"></video>		

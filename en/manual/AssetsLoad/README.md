@@ -111,7 +111,7 @@ self.game.assets.unload('Assets/sprites/panda.bin');
 ````
 2. When switching scene, set the second param as true to clear all the loaded assets
 ````javascript
-self.game.state.load('nextState', true);
+self.game.scene.load('nextState', true);
 ````  
 
 ## API
