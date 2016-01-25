@@ -3,3 +3,5 @@ zh/manual/_book
 en/api/_book
 en/manual/_book
 node_modules
+*.log
+*.out
