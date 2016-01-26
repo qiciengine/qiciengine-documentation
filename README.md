@@ -27,7 +27,7 @@ npm run build-api-zh
 npm run build-manual-zh
 ```
 
-The commands above are defined in [package.json](blob/master/package.json)
+The commands above are defined in [package.json](package.json)
 ```js
 "scripts": {
 	"install-zh": "npm install gitbook-cli && gitbook install zh/api && gitbook install zh/manual",
