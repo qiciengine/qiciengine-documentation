@@ -5,7 +5,7 @@
 ## 开启物理系统
 
 物理系统目前已经作为一个内置插件集成在了青瓷引擎编辑器中，通过菜单 Plugins->PluginManager 打开插件管理面板，并勾选 Arcade Physics 即可。  
-![](images/import_arcade.png) 
+![](images/import_arcade.png)
 
 ## 刚体
 
@@ -15,7 +15,7 @@
 * 所有刚体节点及父节点均不能设置旋转
 * 所有刚体节点的父节点均不能移动  
 
-![](images/rigidbody.png) 
+![](images/rigidbody.png)
 
 ### mass
 刚体的质量，与 Bounce 属性共同决定了刚体碰撞后的速度变化，质量越大碰撞后的速度变化越小
@@ -121,7 +121,7 @@
 ````
 
 ### checkCollision
-当物体向某个方向移动时，是否检查碰撞，包含上下左右上个方向
+当物体向某个方向移动时，是否检查碰撞，包含上下左右四个方向
 ````javascript
     rigidbody.checkCollision.up = true;
     rigidbody.checkCollision.down = true;
@@ -141,7 +141,7 @@
 ````
     rigidbody.addCollide(node2);
 ````
-  
+
 __碰撞时的事件（回调）：__  
 在需要关注碰撞结果的刚体节点，挂载逻辑脚本并实现onCollide接口，例如：
 ````
@@ -150,7 +150,7 @@ __碰撞时的事件（回调）：__
     }, {
         clue: qc.Serializer.NODE
     });
-    
+
     OnCollide.prototype.onCollide = function(o1, o2) {
         // o1和o2节点发生了碰撞
     };
