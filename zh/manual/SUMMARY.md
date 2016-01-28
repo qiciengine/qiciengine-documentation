@@ -72,6 +72,7 @@
         * [表格数据适配器(TableViewAdapter)](Plugin/ExtraUI/TableViewAdapter.md)
         * [表格视图(TableView)](Plugin/ExtraUI/TableView.md)
     * [百度广告插件](Plugin/BaiduAd.md)
+    * [富文本插件](Plugin/RichText.md)
 * [调试与优化](Debug/README.md)
 * [编辑器扩展](ExtendEditor/README.md)
     * [主菜单扩展](ExtendEditor/Menu.md)    
