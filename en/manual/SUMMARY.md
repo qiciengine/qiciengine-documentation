@@ -63,6 +63,7 @@
 * [Dirty Rectangles](DirtyRectangles/README.md)
 * [Official Plugins](Plugin/Official.md)    
     * [Arcade Physics](Plugin/Arcade.md)
+    * [Particle System](Plugin/ParticleSystem/ParticleSystem.md)
     * [Lock Orientation](Plugin/LockOrientation.md)    
     * [Server Communication](Plugin/ServerCommunicate.md)
         * [Simple Server](Plugin/server.md)

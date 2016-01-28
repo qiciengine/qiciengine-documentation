@@ -63,6 +63,7 @@
 * [脏矩形](DirtyRectangles/README.md)
 * [官方插件](Plugin/Official.md)       
     * [Arcade物理](Plugin/Arcade.md)
+    * [粒子系统](Plugin/ParticleSystem/ParticleSystem.md)
     * [锁屏](Plugin/LockOrientation.md)
     * [微信接口](Plugin/Wechat.md)
     * [服务器通讯](Plugin/ServerCommunicate.md)
