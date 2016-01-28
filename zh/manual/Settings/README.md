@@ -12,6 +12,10 @@
 * __Instance__ - 游戏运行页面中game实例变量名，例如为qc_game，那么通过window.qc_game就可以访问	
 * __Version__ - 游戏的版本号，例如2.0.1，参见[发布](../Publish/index.html)
 * __Loading Prefab__ - 资源加载和场景切换的预制，参见[场景加载界面](../LoadingPrefab/index.html)
+* __Frame Rate/Mobile__ - 游戏运行在移动上的帧率限制
+* __Frame Rate/Desktop__ - 游戏运行在PC电脑上的帧率限制
+* __Fixed Game Size/Width__ - 固定游戏大小的宽度
+* __Fixed Game Size/Height__ - 固定游戏大小的高度
 * __Background Color__ - 游戏的背景色
 * __Transparent__ - 勾选时，游戏世界的背景是透明的(Background Color不起效)
 * __Renderer__ - 渲染模式，可选择WebGL，Canvas，或Auto由引擎自动选择

@@ -12,6 +12,10 @@ Select __'Project/Settings...'__ from main menu
 * __Instance__ - The variable name for game instance, for example: qc_name, then you can access the game instance by window.qc_game in webpage
 * __Version__ - The version of this game, like: 2.0.1, see [Publishing](../Publish/index.html)
 * __Loading Prefab__ - The Prefab for scene loading and switching, see [Loading Screen](../LoadingPrefab/index.html)	
+* __Frame Rate/Mobile__ - The maximum frame rate limit for mobile devices
+* __Frame Rate/Desktop__ - The maximum frame rate limit for desktop devices
+* __Fixed Game Size/Width__ - The width for fixed game size
+* __Fixed Game Size/Height__ - The height for fixed game size
 * __Background Color__ - The background color of this game
 * __Transparent__ - Determines transparent or not in game background
 * __Renderer__ - Determine the render mode: WebGL, Canvas or Auto
