@@ -52,4 +52,4 @@ inherit [qc.Node](../gameobject/CNode.md)
 | [reset](methods/reset.md) | 重置粒子发射器 |
 
 ## 参考手册
-[粒子系统](http://docs.zuoyouxi.com/manual/Sample/ParticleSystem.html)
+[粒子系统](http://docs.zuoyouxi.com/manual/Plugin/ParticleSystem/ParticleSystem.html)

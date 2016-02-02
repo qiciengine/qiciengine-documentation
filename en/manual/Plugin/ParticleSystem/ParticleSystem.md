@@ -64,7 +64,7 @@ If enable this module, we can control the angular velocity change of each partic
 Note: If the angular velocity of the particle remains unchanged, this module should be turned off for better performance.
 
 ## API
-[ParticleSystem API](http://docs.zuoyouxi.com/api/officialplugins/particleSystem/CParticleSystem.html)
+[ParticleSystem API](http://docs.qiciengine.com/api/officialplugins/particleSystem/CParticleSystem.html)
 
 ## Demo
-[ParticleSystem Demos](http://engine.zuoyouxi.com/demo/index.html#anchor_ParticleSystem)  
+[ParticleSystem Demos](http://engine.qiciengine.com/demo/index.html#anchor_ParticleSystem)  
