@@ -1,18 +1,26 @@
-# 简易服务器
-提供简单的登录、登出、数据保存功能，可自定义通信消息实现自定义的通信功能。
+# 简易服务器  
+提供简单的登录、登出、数据保存功能，可自定义通信消息实现自定义的通信功能。  
 
-## 下载
-[server zip](http://docs.zuoyouxi.com/manual/Plugin/server.zip)
+## Github 地址  
+https://github.com/qiciengine/qiciengine-server  
 
-## 安装需求
-* [nodejs](https://nodejs.org/en/)
-* [redis](http://redis.io/)
+## 安装需求  
+* [nodejs](https://nodejs.org/en/)  
+* [redis](http://redis.io/)  
+* [mysql](http://www.mysql.com/downloads/)  
+* [pm2](https://www.npmjs.com/package/pm2)  
 
-## 启动步骤：
-* 在 package.json 所在目录执行 npm install，下载安装 server 所依赖的 js 库
+## 启动步骤： 
+### windows  
+* 在 package.json 所在目录执行 npm install，下载安装 server 所依赖的 js 库  
 * 默认的启动配置文件为 config/Config.js，可自定义启动配置文件，运行不同的游戏进程，比如：node gs/StartGs.js config/Config2.js --repl 	
-* window 下执行 start_server.bat；linux 下执行 ./start_server.sh；或手动执行 node gs/StartGs.js --repl，启动单进程服务
-* 在 linux 下执行 start_cluster.sh，可启动 cluster 多进程集群服务，实现负载分担(linux 下使用 pm2 进行进程管理，需要先 npm install pm2 -g)  
+* 执行 start_server.bat；或手动执行 node gs/StartGs.js --repl，启动单进程服务  
+
+### linux  
+* 在 package.json 所在目录执行 npm install，下载安装 server 所依赖的 js 库  
+* 默认的启动配置文件为 config/Config.js，可自定义启动配置文件，运行不同的游戏进程，比如：node gs/StartGs.js config/Config2.js --repl 	
+* 执行 ./start_server.sh；或手动执行 node gs/StartGs.js --repl，启动单进程服务  
+* 执行 start_cluster.sh，可启动 cluster 多进程集群服务，实现负载分担  
 
 
 ## 目录结构

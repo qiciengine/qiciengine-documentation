@@ -1,18 +1,26 @@
 # Simple Server  
 It supports login、logout、save function, also can customize command to implement custom function.  
   
-## Download  
-[server zip](http://docs.zuoyouxi.com/manual/Plugin/server.zip)  
+## Github  
+https://github.com/qiciengine/qiciengine-server    
  
-## Install Requirement  
+## Install Requirement   
 * [nodejs](https://nodejs.org/en/)  
 * [redis](http://redis.io/)  
+* [mysql](http://www.mysql.com/downloads/)  
+* [pm2](https://www.npmjs.com/package/pm2)  
 
 ## Boot Step
-* Execute `npm install` in package.json's folder, download dependent js lib.  
-* Default config file is `config/Config.js`. We can create custom config file, then boot different process, such as: `node gs/StartGs.js config/Config2.js` --repl 	
-* Execute `start_server.bat` in window, `./start_server.sh` in linux, or `node gs/StartGs.js --repl` manually, to start single process server.  
-* In linux, recommend execute `./start_cluster.sh`, to start multi process server in cluster mode. It will impletment overload balance. (In linux, using pm2 to manage process) 
+### windows  
+* Execute `npm install` in package.json's folder, download dependent js lib.   
+* Default config file is `config/Config.js`. We can create custom config file, then boot different process, such as: `node gs/StartGs.js config/Config2.js` --repl 	 
+* Execute `start_server.bat` or `node gs/StartGs.js --repl` manually, to start single process server.   
+
+### linux  
+* Execute `npm install` in package.json's folder, download dependent js lib.   
+* Default config file is `config/Config.js`. We can create custom config file, then boot different process, such as: `node gs/StartGs.js config/Config2.js` --repl 		
+* Execute `./start_server.sh` or `node gs/StartGs.js --repl` manually, to start single process server.  
+* Recommend execute `./start_cluster.sh`, to start multi process server in cluster mode. It will impletment overload balance.   
 
 ## Directory Structure
 ````
