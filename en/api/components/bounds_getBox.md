@@ -21,5 +21,5 @@ Get the boundary info of a node in the specified object's coordinate system
     var bound = qc.Bounds.getBox(node, Bounds.USE_BOUNDS, true, -1, game.world);
 
     // the real display boundary isn't affected by child node's rotation or scale in the world coordinate system.
-    var bound = qc.Bounds.getBox(node, Bounds.USE_RECTTRANSFORM, true, -1 game.world);
+    var bound = qc.Bounds.getBox(node, Bounds.USE_RECTTRANSFORM, true, -1, game.world);
 ````

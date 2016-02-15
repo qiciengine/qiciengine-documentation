@@ -21,5 +21,5 @@
     var bound = qc.Bounds.getBox(node, Bounds.USE_BOUNDS, true, -1, game.world);
 
     // 相对世界坐标系，子节点旋转缩放的实际显示范围不影响返回的边界信息
-    var bound = qc.Bounds.getBox(node, Bounds.USE_RECTTRANSFORM, true, -1 game.world);
+    var bound = qc.Bounds.getBox(node, Bounds.USE_RECTTRANSFORM, true, -1, game.world);
 ````
