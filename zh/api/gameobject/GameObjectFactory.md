@@ -8,6 +8,7 @@
 | ------------ | -------------- |
 | [clone](clone.md) | 克隆一个对象出来，克隆目标可以是当前world下的 [qc.Node](CNode.md) 或者某个[qc.Prefab](../assets/Prefab.md) |
 | [button](button.md) | 创建一个 [qc.Button](CButton.md) 按钮对象 |
+| [dropdown](dropdown.md) | 创建一个 [qc.Dropdown](CDropdown.md) 下拉框对象 |
 | [image](image.md) | 创建一个 [qc.UIImage](CUIImage.md) 图片对象 |
 | [inputField](inputField.md) | 创建一个输入框 [qc.InputField](CInputField.md) 对象 |
 | [node](node.md) | 创建一个空的 [qc.Node](CNode.md) 节点 |
