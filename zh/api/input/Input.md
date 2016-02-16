@@ -14,7 +14,7 @@
 | mouse | [qc.Mouse](../input/Mouse.md) | 监控鼠标事件的对象 |
 | touch | [qc.Touch](../input/Touch.md) | 监控触摸事件的对象 |
 | module | [qc.BaseInputModule](../input/BaseInputModule.md) | 高级事件处理模块 |
-| cursonPosition | [qc.Point](../input/Point.md) | 当前鼠标光标在世界坐标系中的位置 |
+| cursonPosition | [qc.Point](../input/Pointer.md) | 当前鼠标光标在世界坐标系中的位置 |
 | wheelDeltaX | number | 本帧鼠标在x轴上滚动的距离 |
 | wheelDeltaY | number | 本帧鼠标在y轴上滚动的距离 |
 | keyCount | int | 本帧按下的键盘按键数量 |

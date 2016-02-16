@@ -40,7 +40,7 @@ preUpdate、update、postUpdate、render、postRender 函数。
 ## 变量
 | 变量名        | 类型 | 作用           |
 | ------------- |-------------|-------------|
-| game | [qc.Game](../Game/README.md) | 游戏实例的引用 |
+| game | [qc.Game](../game/README.md) | 游戏实例的引用 |
 | plugins | object | 只读。所有的插件列表 |
 
 ## 方法

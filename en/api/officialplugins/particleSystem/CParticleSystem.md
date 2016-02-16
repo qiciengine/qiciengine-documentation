@@ -1,8 +1,8 @@
 # qc.ParticleSystem
-inherit [qc.Node](../gameobject/CNode.md)
+inherit [qc.Node](../../gameobject/CNode.md)
 
 ## Description
-A Particle System simulates fluid entites such as liquids, clouds and flames by generating and animating large numbers of small images in the scene. Inherit from [Node](../gameobject/CNode.md).
+A Particle System simulates fluid entites such as liquids, clouds and flames by generating and animating large numbers of small images in the scene. Inherit from [Node](../../gameobject/CNode.md).
 
 ## Variables
 | Variable Name | Type | Description |

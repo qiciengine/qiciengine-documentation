@@ -6,7 +6,7 @@
 ## Paramters
 | Paramter | Type | Description |
 | --- | ---- | ---- |
-| id | number | see : [qc.Touch](touch.md) |
+| id | number | see : [qc.Touch](Touch.md) |
 
 ## Description
  Check whether a specified touch start

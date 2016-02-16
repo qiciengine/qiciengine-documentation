@@ -1,4 +1,4 @@
-# [qc.Storage](Storage.md).set
+# [qc.Storage](README.md).set
 
 ## Prototype
 * void set(string key, object value)

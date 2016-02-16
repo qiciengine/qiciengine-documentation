@@ -1,8 +1,8 @@
 # qc.ParticleSystem
-inherit [qc.Node](../gameobject/CNode.md)
+inherit [qc.Node](../../gameobject/CNode.md)
 
 ## 描述
-粒子系统节点，继承自[Node](../gameobject/CNode.md)，提供粒子相关功能。
+粒子系统节点，继承自[Node](../../gameobject/CNode.md)，提供粒子相关功能。
 
 ## 变量
 | 变量名        |  类型     |   作用           |

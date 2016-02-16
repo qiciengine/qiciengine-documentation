@@ -59,14 +59,14 @@ qici.config 变量也在 StartGame.html 中定义，其中 gameInstance 默认�
 | time: [qc.Time](../time/README.md) | 只读。[时间模块](../time/README.md) |
 | sound: [qc.SoundManager](../soundmanager/README.md) | 只读。[声音模块](../soundmanager/README.md) |
 | assets: [qc.Assets](../assets/README.md) | 只读。[资源管理](../assets/README.md) |
-| stage: [qc.Stage](../stage/README.md) | 只读。[舞台](../stage/README.md) |
-| camera: [qc.Camera](../camera/README.md) | 只读。[相机模块](../camera/README.md) |
+| stage: qc.Stage| 只读。舞台 |
+| camera: qc.Camera | 只读。相机模块 |
 | world: [qc.World](../world/README.md) | 只读。[游戏世界](../world/README.md) |
-| gs: [qc.GS](../gs/README.md) | 只读。[游戏服务器交互模块](../gs/README.md) |
+| gs: qc.GS | 只读。游戏服务器交互模块 |
 | state: [qc.SceneManager](../state/README.md) | 废弃，请使用scene |
 | scene: [qc.SceneManager](../state/README.md) | 只读。[游戏场景管理](../state/README.md) |
 | serializer: [qc.Serializer](../serializer/README.md) | 只读。[序列化相关模块](../serializer/README.md) |
-| nodePool: [qc.NodePool](../nodepool/README.md) | 只读。[对象池](../nodepool/README.md) |
+| nodePool: qc.NodePool | 只读。对象池 |
 | storage: [qc.Storage](../storage/README.md) | 只读。[本地存储](../storage/README.md) |
 | canvas: Phaser.Canvas | 只读。游戏画布 |
 | width: int | 只读。游戏世界的宽度，单位：px |

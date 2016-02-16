@@ -6,7 +6,7 @@
 ## Parameters
 | Parameter | Type | Description |
 | ------------- | ------------- | -------------|
-| node | [qc.Node](../../gameobject/CNode.md) | New node for collision detection. |
+| node | [qc.Node](../../../gameobject/CNode.md) | New node for collision detection. |
 
 ## Description
 Add a node for collision detection.

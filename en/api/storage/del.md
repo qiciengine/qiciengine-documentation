@@ -1,4 +1,4 @@
-# [qc.Storage](Storage.md).del
+# [qc.Storage](README.md).del
 
 ## Prototype
 * void del(string key);

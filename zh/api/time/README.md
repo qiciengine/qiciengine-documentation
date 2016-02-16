@@ -6,7 +6,7 @@
 ## 变量
 | 变量名        |  类型 | 描述           |
 | ------------- |-------------|
-| game | [qc.Game](../Game/README.md) | 游戏实例的引用 |
+| game | [qc.Game](../game/README.md) | 游戏实例的引用 |
 | frameRate | int | 游戏帧率。 |
 | now | int | 只读。现在的时间戳 (1970-01-01午夜到现在的时间间隔，用毫秒表述) |
 | scaledTime  | int | 只读。自游戏开始后经历的时间，受timeScale加速的影响 |

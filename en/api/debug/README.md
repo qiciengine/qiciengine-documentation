@@ -7,5 +7,5 @@ By default, Debug is enable in editor and disable when published.
 ## Variables
 | Variable Name | Type | Description |
 | ------------- |-------------|-------------|
-| game | [qc.Game](../Game/README.md) | The local game reference. |
+| game | [qc.Game](../game/README.md) | The local game reference. |
 | on | boolean | Is the debug enable? If true, [Log](../log/README.md) enableTrace is true too. |

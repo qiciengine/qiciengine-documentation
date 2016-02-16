@@ -1,4 +1,4 @@
-# [qc.ParticleSystem](../ParticleSystem.md).clear
+# [qc.ParticleSystem](../CParticleSystem.md).clear
 
 ## Prototype
 * void clear()

@@ -12,7 +12,7 @@
 | [qc.Keyboard](../input/Keyboard.md) | 键盘 事件监听及管理 |
 | [qc.Mouse](../input/Mouse.md) | 鼠标事件监听及管理 |
 | [qc.Touch](../input/Touch.md) | 触摸事件监听及管理 |
-| [qc.Key](../input/Key.md) | 按键事件对象 |
+| qc.Key | 按键事件对象 |
 | [qc.Pointer](../input/Pointer.md) | 鼠标和触摸事件对象 |
 | [qc.BaseInputEvent](../input/BaseInputEvent.md) | 交互事件的基础类 |
 | [qc.WheelEvent](../input/WheelEvent.md) | 鼠标滚轮事件 |

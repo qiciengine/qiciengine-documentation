@@ -13,7 +13,7 @@ Advanced event is supported by [qc.BaseInputModule](../input/BaseInputModule.md)
 | mouse | [qc.Mouse](../input/Mouse.md) |  Mouse object that minitor mouse event. |
 | touch | [qc.Touch](../input/Touch.md) | Touch object that minitor touch event |
 | module | [qc.BaseInputModule](../input/BaseInputModule.md) | Advanced event handler |
-| cursorPosition | [qc.Point](../input/Point.md) |  Current position of cursor in world coordinate|
+| cursorPosition | [qc.Point](../input/Pointer.md) |  Current position of cursor in world coordinate|
 | wheelDeltaX | number | Delta distance scrolled in axis x in current frame |
 | wheelDeltaY | number | Delta distance scrolled in axis y in current frame |
 | keyCount | int | The count of key pressed in current frame |

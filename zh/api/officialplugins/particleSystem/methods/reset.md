@@ -1,4 +1,4 @@
-# [qc.ParticleSystem](../ParticleSystem.md).reset
+# [qc.ParticleSystem](../CParticleSystem.md).reset
 
 ## Prototype
 * void reset()

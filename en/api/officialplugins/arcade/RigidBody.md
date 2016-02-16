@@ -13,13 +13,13 @@ A component that control the position of an object through physics simulation.
 | collideWorldBounds | boolean | Should the rigidbody collide with the world bounds? |
 | allowRotation | boolean | Allow this rigidbody to be rotated? |
 | allowGravity | boolean | Allow this rigidbody to be influenced by gravity?  |
-| bounce | [qc.Point](../geom/Point.md) | The elasticity of the rigidbody when colliding, bounce.x/y = 1 means full rebound, bounce.x/y = 0.5 means 50% rebound velocity. |
-| velocity | [qc.Point](../geom/Point.md) | Velocity of the rigidbody. |
-| maxVelocity | [qc.Point](../geom/Point.md) | Max vilocity of the rigidbody. |
-| acceleration | [qc.Point](../geom/Point.md) | The rate of change of the velocity. |
-| drag | [qc.Point](../geom/Point.md) | The drag applied to the motion of the rigidbody. |
-| gravity | [qc.Point](../geom/Point.md) | The local gravity setting of the rigidbody. Defaults to x: 0, y: 0 |
-| friction | [qc.Point](../geom/Point.md) | The amount of movement that will occur if another rigidbody 'rides' this one. |
+| bounce | [qc.Point](../../geom/Point.md) | The elasticity of the rigidbody when colliding, bounce.x/y = 1 means full rebound, bounce.x/y = 0.5 means 50% rebound velocity. |
+| velocity | [qc.Point](../../geom/Point.md) | Velocity of the rigidbody. |
+| maxVelocity | [qc.Point](../../geom/Point.md) | Max vilocity of the rigidbody. |
+| acceleration | [qc.Point](../../geom/Point.md) | The rate of change of the velocity. |
+| drag | [qc.Point](../../geom/Point.md) | The drag applied to the motion of the rigidbody. |
+| gravity | [qc.Point](../../geom/Point.md) | The local gravity setting of the rigidbody. Defaults to x: 0, y: 0 |
+| friction | [qc.Point](../../geom/Point.md) | The amount of movement that will occur if another rigidbody 'rides' this one. |
 | angularVelocity | number | The rotation speed of the rigidbody. Measured in radians per second. |
 | maxAngular | number | Max rotation speed of the rigidbody. |
 | angularAcceleration | number | The rate of change of the angular velocity. |

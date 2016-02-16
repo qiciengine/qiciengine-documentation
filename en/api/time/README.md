@@ -8,7 +8,7 @@ This class represents a singleton object that can be accessed directly as `game.
 ## Variables
 | Variable Name  |  Type | Description |
 | ------------- |-------------|
-| game | [qc.Game](../Game/README.md) | The local game reference. |
+| game | [qc.Game](../game/README.md) | The local game reference. |
 | frameRate | int | The desired frame rate of the game. |
 | now | int | Read only. The `Date.now()` value |
 | scaledTime  | int | Read only. The number of milliseconds that have elapsed since the game was started. Affected by `timeScale` |

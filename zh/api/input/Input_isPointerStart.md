@@ -1,2 +1,3 @@
 # [qc.Input](Input.md).isPointerStart
-同：[qc.Mouse.isPointerStart](Mouse_isPointerStart.md)
+见：[qc.Mouse.isMouseDown](Mouse_isMouseDown.md) 和 [qc.Touch.isTouchStart](Touch_isTouchStart.md)
+

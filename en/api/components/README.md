@@ -20,7 +20,7 @@ QICIEngine provides components as following:
 * [TweenScale](TweenScale.md)
 
 ## Others
-* [DebugViewer](DebugViewer.md)
+* [DebugViewer](DebugView.md)
 * [FilterGroup](FilterGroup.md)
 * [NodeMask](NodeMask.md)
 * [ToggleGroup](ToggleGroup.md)

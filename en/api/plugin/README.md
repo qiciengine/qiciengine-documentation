@@ -38,7 +38,7 @@ The templete:
 ## Variables
 | Variable Name  | Type | Description  |
 | ------------- |-------------|-------------|
-| game | [qc.Game](../Game/README.md) | The local game reference. |
+| game | [qc.Game](../game/README.md) | The local game reference. |
 | plugins | object | Read only. The list of all plugins. |
 
 ## Methods

@@ -18,7 +18,7 @@ Select the particle system object in the scene, you can view the properties thro
 
 | Properties | Description |
 | ------------- | ------------- |
-| Texture | The texture atlas that the particle will use. To use atlas, see [Atlas](../../../Atlas/README.md)。 |
+| Texture | The texture atlas that the particle will use. To use atlas, see [Atlas](../../Atlas/README.md)。 |
 | Frames | Array of frames that the particle will use. Frame is picked at random. |
 | Zone | The shape of the emission zone. Currently supports four types: Zone.POINT(point), Zone.LINE(line), Zone.CIRCLE(circle) and Zone.RECTANGLE(rectangle). |
 | Frequency | How often per emission, in seconds.  |

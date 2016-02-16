@@ -3,7 +3,7 @@
 * [对象工厂](GameObjectFactory.md)：负责所有游戏对象的产出
 * [空节点](CNode.md)
 * [图片](CUIImage.md)
-* [精灵](Sprite.md)
+* [精灵](CSprite.md)
 * [文本](CUIText.md)
 * [面板](CUIRoot.md)
 * [按钮](CButton.md)

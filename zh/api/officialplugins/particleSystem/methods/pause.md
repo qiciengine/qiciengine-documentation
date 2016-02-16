@@ -1,4 +1,4 @@
-# [qc.ParticleSystem](../ParticleSystem.md).pause
+# [qc.ParticleSystem](../CParticleSystem.md).pause
 
 ## Prototype
 * void pause()

@@ -1,4 +1,4 @@
-# [qc.Storage](Storage.md).restore
+# [qc.Storage](README.md).restore
 
 ## Prototype
 * void restore(void)

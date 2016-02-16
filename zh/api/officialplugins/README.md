@@ -6,7 +6,7 @@
 * [RigidBody](arcade/RigidBody.md)
 
 ## 粒子系统
-* [ParticleSystem](particleSystem/ParticleSystem.md)
+* [ParticleSystem](particleSystem/CParticleSystem.md)
 
 ## 微信接口
 * [WeChat](wechat/WeChat.md)

@@ -51,19 +51,19 @@ When using the default 'game' name, you can use the global game variable to refe
 | device: [qc.Device](../device/README.md) | Read only. [Device Information](../device/README.md) |
 | add: [qc.GameObjectFactory](../gameobject/GameObjectFactory.md) | Read only. [Objects Factory](../gameobject/GameObjectFactory.md) |
 | input: [qc.Input](../input/README.md) | Read only. [Input Management](../input/README.md) |
-| plugins: [qc.PluginManager](../plugins/README.md) | Read only. [Plugins Management](../plugins/README.md) |
+| plugins: [qc.PluginManager](../plugin/README.md) | Read only. [Plugins Management](../plugin/README.md) |
 | math: [qc.Math2](../math/README.md) | Read only. [Math Library](../math/README.md) |
 | timer: [qc.Timer](../timer/README.md) | Read only.[Timer](../timer/README.md) |
 | time: [qc.Time](../time/README.md) | Read only.[Time](../time/README.md) |
 | sound: [qc.SoundManager](../soundmanager/README.md) | Read only.[Sound Manager](../soundmanager/README.md) |
 | assets: [qc.Assets](../assets/README.md) | Read only. [Assets Management](../assets/README.md) |
-| stage: [qc.Stage](../stage/README.md) |  Read only.[Stage](../stage/README.md) |
+| stage: qc.Stage |  Read only. Stage |
 | world: [qc.World](../world/README.md) | Read only. [Game World](../world/README.md) |
-| gs: [qc.GS](../gs/README.md) | Read only. [The connector of game server](../gs/README.md) |
+| gs: qc.GS | Read only. The connector of game server|
 | state: [qc.StateManager](../state/README.md) | Obsolete. |
 | scene: [qc.SceneManager](../state/README.md) | Read only. [Scenes Management](../state/README.md) |
 | serializer: [qc.Serializer](../serializer/README.md) | Read only. [Serializer](../serializer/README.md) |
-| nodePool: [qc.NodePool](../nodepool/README.md) | Read only. [NodePool](../nodepool/README.md) |
+| nodePool: qc.NodePool| Read only. NodePool |
 | storage: [qc.Storage](../storage/README.md) | Read only. [Local Storage Management](../storage/README.md) |
 | canvas: Phaser.Canvas |  Read only.  |
 | width: int | The width of game world. Unit:px |

@@ -6,5 +6,5 @@
 ## 变量
 | 变量名 | 类型 | 作用 |
 | ------------- |-------------|-------------|
-| game | [qc.Game](../Game/README.md) | 游戏实例的引用 |
+| game | [qc.Game](../game/README.md) | 游戏实例的引用 |
 | on | boolean | 是否打开调试功能，如果打开，[Log](../log/README.md)的enableTrace也会自动打开 |

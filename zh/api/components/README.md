@@ -20,7 +20,7 @@
 * [TweenScale](TweenScale.md)
 
 ## 其他
-* [DebugViewer](DebugViewer.md)
+* [DebugViewer](DebugView.md)
 * [FilterGroup](FilterGroup.md)
 * [NodeMask](NodeMask.md)
 * [ToggleGroup](ToggleGroup.md)

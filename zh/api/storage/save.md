@@ -1,4 +1,4 @@
-# [qc.Storage](Storage.md).save
+# [qc.Storage](README.md).save
 
 ## 原型
 * void save()

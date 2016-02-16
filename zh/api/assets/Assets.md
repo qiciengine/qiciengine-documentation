@@ -12,7 +12,7 @@
 ## 变量
 | 变量名        | 类型   | 描述           |
 | ------------- |-------------|-------------|
-| game | [qc.Game](../Game/README.md) | 游戏实例的引用 |
+| game | [qc.Game](../game/README.md) | 游戏实例的引用 |
 | isLoading | boolean | 只读。当前是否正在加载资源 |
 | hasLoaded | boolean | 只读。所有资源是否已经加载解析完毕 |
 | baseURL | string | 资源的域地址，所有的资源将附加本url头部 |

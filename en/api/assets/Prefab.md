@@ -9,10 +9,5 @@ Prefabricated resources. In the scene editor it will automatically create prefab
 | uuid | string | Read Only. the unique id of resource|
 | dependences | Array | Read Only. The dependent resource list of prefab |
 
-## Methods
-| Method        | Description          |
-| ------------- |-------------|
-| [hasUnloadedDependence](Prefab_hasUnloadedDependence.md) | Whether there is a dependency on the resource not loaded successfully |
-
 ## Manual
 [Prefab](http://docs.qiciengine.com/manual/Prefab/index.html)

@@ -1,4 +1,4 @@
-# [qc.Storage](Storage.md).del
+# [qc.Storage](README.md).del
 
 ## 原型
 * void del(string key);

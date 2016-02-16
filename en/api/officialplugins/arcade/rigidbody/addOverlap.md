@@ -6,7 +6,7 @@
 ## Parameters
 | Parameter | Type | Description |
 | ------------- | ------------- | -------------|
-| node | [qc.Node](../../gameobject/CNode.md) | New node for overlap detection. |
+| node | [qc.Node](../../../gameobject/CNode.md) | New node for overlap detection. |
 
 ## Description
 Add a node for overlap detection.

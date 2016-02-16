@@ -1,4 +1,4 @@
-# [qc.ParticleSystem](../ParticleSystem.md).start
+# [qc.ParticleSystem](../CParticleSystem.md).start
 
 ## Prototype
 * void start()

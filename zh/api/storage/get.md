@@ -1,4 +1,4 @@
-# [qc.Storage](Storage.md).get
+# [qc.Storage](README.md).get
 
 ## 原型
 * object get(string key)

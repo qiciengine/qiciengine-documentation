@@ -6,7 +6,7 @@ QICIEngine provides built-in official plugins as following:
 * [RigidBody](arcade/RigidBody.md)
 
 ## Particle System
-* [ParticleSystem](particleSystem/ParticleSystem.md)
+* [ParticleSystem](particleSystem/CParticleSystem.md)
 
 ## LockOrientation
 

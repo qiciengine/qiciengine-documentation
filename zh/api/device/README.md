@@ -6,7 +6,7 @@
 ## 变量
 | 变量名 | 类型  | 作用 |
 | ------------- |-------------|-------------|
-| game | [qc.Game](../Game/README.md) | 游戏实例的引用 |
+| game | [qc.Game](../game/README.md) | 游戏实例的引用 |
 | desktop | boolean | 只读。当前是否运行在PC上 |
 | iOS | boolean | 只读。当前是否运行在iOS设备上 |
 | android | boolean | 只读。当前是否运行在android设备上 |

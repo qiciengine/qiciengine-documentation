@@ -7,5 +7,5 @@ Event of drag drop.
 ## Paramters
 | Paramter | Type | Description |
 | ------------- |-------------|-------------|
-| dragging | [qc.Node](../Node/README.md) | current dragging node |
+| dragging | [qc.Node](../gameobject/CNode.md) | current dragging node |
 | result | * | result of drag end |

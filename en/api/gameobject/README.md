@@ -3,7 +3,7 @@
 * [GameObjectFactory](GameObjectFactory.md)
 * [Node](CNode.md)
 * [UIImage](CUIImage.md)
-* [Sprite](Sprite.md)
+* [Sprite](CSprite.md)
 * [UIText](CUIText.md)
 * [UIRoot](CUIRoot.md)
 * [Button](CButton.md)

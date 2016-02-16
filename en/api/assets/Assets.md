@@ -13,7 +13,7 @@ The types of assets are as following:
 ## Variables
 | Variable Name       | Type   |    Description        |
 | ------------- |-------------|-------------|
-| game | [qc.Game](../Game/README.md) | Local reference to game. |
+| game | [qc.Game](../game/README.md) | Local reference to game. |
 | isLoading | boolean | Read only. True if the Loader is in the process of loading the queue. |
 | hasLoaded | boolean | Read only. True if all assets in the queue have finished loading. |
 | baseURL | string | If you want to append a URL before the path of any asset you can set this here. |

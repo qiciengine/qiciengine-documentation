@@ -1,2 +1,2 @@
 # [qc.Input](Input.md).isAnyPointer
-同：[qc.Mouse.isAnyPointer](Mouse_isAnyPointer.md)
+见：[qc.Mouse.isAnyMouse](Mouse_isAnyMouse.md) 和 [qc.Touch.isAnyTouch](Touch_isAnyTouch.md)

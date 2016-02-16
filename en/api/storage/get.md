@@ -1,4 +1,4 @@
-# [qc.Storage](Storage.md).get
+# [qc.Storage](README.md).get
 
 ## Prototype
 * object get(string key)

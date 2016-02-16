@@ -7,7 +7,7 @@ This class represents a singleton object that can be accessed directly as `game.
 ## Variables
 | Variable Name | Type  | Description |
 | ------------- |-------------|-------------|
-| game | [qc.Game](../Game/README.md) | The local game reference. |
+| game | [qc.Game](../game/README.md) | The local game reference. |
 | desktop | boolean | Read only. Is running on a desktop? |
 | iOS | boolean | Read only. Is running on iOS? |
 | android | boolean | Read only. Is running on android? |
