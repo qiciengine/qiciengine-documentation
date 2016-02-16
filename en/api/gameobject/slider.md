@@ -10,7 +10,7 @@
 | createSliders | boolean |  Whether to create a slider |
 
 ## Description
-Creaet a [qc.Slider](CSlider.md).
+Create a [qc.Slider](CSlider.md).
 
 ## Example
 ````

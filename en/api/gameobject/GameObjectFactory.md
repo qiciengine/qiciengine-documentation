@@ -9,6 +9,7 @@ The GameObjectFactory is a quick way to create many common game objects.
 | ------------ | -------------- |
 | [clone](clone.md) | Clones the object original and returns the clone.   |
 | [button](button.md) | Create a [Button](CButton.md). |
+| [dropdown](dropdown.md) | Create a [Dropdown](CDropdown.md). |
 | [image](image.md) | Create a [UIImage](CUIImage.md). |
 | [inputField](inputField.md) | Create a [InputField](CInputField.md). |
 | [node](node.md) | Create a [Node](CNode.md). |

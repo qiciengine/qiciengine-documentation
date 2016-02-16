@@ -1,17 +1,17 @@
-# [qc.GameObjectFactory](GameObjectFactory.md).toggle
+# [qc.GameObjectFactory](GameObjectFactory.md).dropdown
 
 ## Prototype
-* [qc.Toggle](CToggle.md) toggle([qc.Node](CNode.md) parent)
+* [qc.Dropdown](CDropdown.md) dropdown([qc.Node](CNode.md) parent)
 
-## Paramters
+## Parameters
 | Paramter | Type | Description |
 | ----------- | ----------- | ----------- |
 | parent | [qc.Node](CNode.md) | Optional node to add the object to. If not specified it will be added to the World. |
 
 ## Description
-Create a [qc.Toggle](CToggle.md).
+Create a new [`Dropdown`](CDrodown.md).
 
 ## Example
 ````
-    var toggle = game.add.toggle(game.world)
+    var dp = game.add.dropdown(game.world)
 ````

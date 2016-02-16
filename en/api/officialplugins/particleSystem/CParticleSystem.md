@@ -52,4 +52,4 @@ A Particle System simulates fluid entites such as liquids, clouds and flames by 
 | [reset](methods/reset.md) | Reset the particle system. |
 
 ## Manual
-[ParticleSystem](http://docs.zuoyouxi.com/manual/Plugin/ParticleSystem.html)
+[ParticleSystem](http://docs.qiciengine.com/manual/Plugin/ParticleSystem/ParticleSystem.html)

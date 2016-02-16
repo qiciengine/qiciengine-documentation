@@ -10,7 +10,7 @@
 | createSliders | boolean | Whether to create a slider |
 
 ## Description
-Creaet a [qc.ScrollBar](CScrollBar.md).
+Create a [qc.ScrollBar](CScrollBar.md).
 
 ## Example
 ````
