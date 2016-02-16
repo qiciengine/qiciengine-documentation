@@ -30,4 +30,4 @@ nameOrIndex: Action name or index of Animators array, 0 by default.
 ````  
 
 ## Demo 
-[Action Demo](http://engine.zuoyouxi.com/demo/index.html#anchor_Action)
+[Action Demo](http://engine.qiciengine.com/demo/index.html#anchor_Action)

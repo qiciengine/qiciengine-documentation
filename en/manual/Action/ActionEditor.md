@@ -146,7 +146,7 @@ When action stops, if you want to resume the action, you can pass false as the t
 	// play test action
 	this.gameObject.Animator.play('test');
 ````  
-We use the [setData](http://docs.zuoyouxi.com/api/action/setData.html) method to set curve data. 
+We use the [setData](http://docs.qiciengine.com/api/action/setData.html) method to set curve data. 
 
 ### Change Action Property  
 ````javascript
@@ -179,7 +179,7 @@ We use the [setData](http://docs.zuoyouxi.com/api/action/setData.html) method to
 ````  
 
 ## API
-[Action API](http://docs.zuoyouxi.com/api/action/Action.html)
+[Action API](http://docs.qiciengine.com/api/action/Action.html)
 
 ## Demo
-[Action Demo](http://engine.zuoyouxi.com/demo/index.html#anchor_Action)
+[Action Demo](http://engine.qiciengine.com/demo/index.html#anchor_Action)
