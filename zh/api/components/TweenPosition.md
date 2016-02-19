@@ -12,4 +12,4 @@ inherit [Tween](Tween.md)
 | moveAxis | int | 位置改变的类型，TweenPosition.ONLY_X(只改变X坐标)、TweenPosition.ONLY_Y(只改变Y坐标)、TweenPosition.BOTH(X、Y都改变) |
 
 ## Manual
-[Tween Animation](http://docs.qiciengine.com/manual/Tween/index.html)
+[Tween Animation](http://docs.zuoyouxi.com/manual/Tween/index.html)

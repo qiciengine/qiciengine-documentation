@@ -39,6 +39,7 @@ function extractInspectorTips() {
         'components/CacheAsBitmap.md',
         'components/Tween.md',
         'components/TweenPosition.md',
+        'components/TweenTransform.md',
         'components/TweenRotation.md',
         'components/TweenAlpha.md',
         'components/TweenScale.md',
