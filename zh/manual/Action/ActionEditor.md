@@ -87,6 +87,24 @@ _其中的 TweenAbsolute 和 [Tween](../Tween/README.md) 组件类似，都有 F
 处于录制状态时，QICI编辑器场景中对象的属性变更会自动记录到 _动作剪辑_ 的相应属性中。在场景中移动、旋转、缩放对象，若 _动作剪辑_ 存在相应的动作属性，则会在红色时间线所在位置为相应属性新增关键帧或修改关键帧数值。也可以通过直接修改 Inspector 面板中的属性值来新增关键帧或修改关键帧数值。  
 下面的视频为一个样例：在录制状态下通过移动对象创建对象的心形移动路径。  
 <video controls="controls" src="../video/heartPath.mp4"></video>  
+  
+## 添加自定义动作属性
+在动作编辑器中可添加自定义动作属性，自定义的属性可以是对象上的属性，也可以是对象挂载的脚本组件的属性。如下所示：  
+````javascript
+	// Add custom action properties
+	qc.extend.addProperty('qc.Node', 'test.testValue', qc.Serializer.NUMBER);
+	qc.extend.addProperty('qc.Node', 'test.testString', qc.Serializer.STRING);
+	qc.extend.addProperty('qc.Node', 'test.testColor', qc.Serializer.COLOR);
+	qc.extend.addProperty('qc.Node', 'test.testTexture', qc.Serializer.TEXTURE);
+	qc.extend.addProperty('qc.ParticleSystem', 'quantity', qc.Serializer.NUMBER);
+````
+以上代码演示了添加 4 个 test 脚本组件的属性和 1 个 qc.ParticleSystem 对象的属性。在动作编辑器中可以添加上述的动作属性，如图所示：  
+![](image/customProperty.png)   
+  
+下面介绍 qc.extend.addProperty 的各个参数：  
+第1个参数：动作属性的 gameObject 对象的类名，若属性为组件的属性，则为组件的 gameObject 对象的类名。  
+第2个参数：动作属性名。支持级联格式 "xxx.yyy.zzz"，以 qc.Demo.Test 组件的 testValue 属性为例，可传入 Test.testValue 字符串作为动作属性名。  
+第3个参数：动作属性类型。目前默认支持 qc.Serializer.NUMBER、qc.Serializer.STRING、qc.Serializer.BOOLEAN、qc.Serializer.COLOR、qc.Serializer.AUDIO、qc.Serializer.TEXTURE 这几种类型。  
 
 ## 使用脚本控制动作  
 [_Animator_](Animator.md) 组件提供了一些常用的动作控制函数，可以通过获得对象节点的 Animator 组件来控制动作。  

@@ -98,6 +98,24 @@ You can animate any animated property of the _Action Clip_ by manipulating the o
 The following video is an example how to create a heart-path movement by animating the object in the scene of QICI Engine.     
 <video controls="controls" src="../video/heartPath.mp4"></video>  
 
+## Adding Custom Property
+We can add custom properties for the Action Editor. The custom property can be a property of gameObject, and also be a property of component mounted to gameObject. The following code show how to add custom properties.    
+````javascript
+	// Add custom action properties
+	qc.extend.addProperty('qc.Node', 'test.testValue', qc.Serializer.NUMBER);
+	qc.extend.addProperty('qc.Node', 'test.testString', qc.Serializer.STRING);
+	qc.extend.addProperty('qc.Node', 'test.testColor', qc.Serializer.COLOR);
+	qc.extend.addProperty('qc.Node', 'test.testTexture', qc.Serializer.TEXTURE);
+	qc.extend.addProperty('qc.ParticleSystem', 'quantity', qc.Serializer.NUMBER);
+````
+In the code above, we add four properties of the script component named "test" and one property of qc.ParticleSystem object. In the Action Editor, we can add these properties like this:  
+![](image/customProperty.png)   
+  
+The introduction of qc.extend.addProperty is following:  
+The first parameter: The class name of property's gameObject. If property is the property of component, it is the class name of component's gameObject.  
+The second parameter: The name of property. It supports cascaded format like "xxx.yyy.zzz". For example, we want to add "testValue" property of "qc.Demo.Test" Component, we can pass "Test.testValue" to this parameter.  
+The third parameter: The property's type. By default the following type is supported: qc.Serializer.NUMBER、qc.Serializer.STRING、qc.Serializer.BOOLEAN、qc.Serializer.COLOR、qc.Serializer.AUDIO、qc.Serializer.TEXTURE.  
+
 ## Using Script to Control Action    
 The [_Animator_](Animator.md) component supports many functions to control action.    
 ### Play Action  
