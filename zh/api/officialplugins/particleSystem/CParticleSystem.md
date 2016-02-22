@@ -7,7 +7,7 @@ inherit [qc.Node](../../gameobject/CNode.md)
 ## 变量
 | 变量名        |  类型     |   作用           |
 | ------------- |-------------| -------------|
-| texture | qc.Atlas | 粒子使用的图集 |
+| textures | Array | 粒子使用的图片数组 |
 | frames | Array | 粒子图片数组，当设定了多张图片时，在发射时将随机选取一个 |
 | zoneType | number | 发射区域，支持四种类型：Zone.POINT(点)、Zone.LINE(直线)、Zone.CIRCLE(圆)、Zone.RECTANGLE(矩形)  |
 | zoneLength | number | 发射区域长度，仅当zoneType为Zone.LINE时起效 |

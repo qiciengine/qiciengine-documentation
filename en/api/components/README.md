@@ -16,6 +16,7 @@ QICIEngine provides components as following:
 * [TweenAlpha](TweenAlpha.md)
 * [TweenColor](TweenColor.md)
 * [TweenPosition](TweenPosition.md)
+* [TweenTransform](TweenTransform.md)
 * [TweenRotation](TweenRotation.md)
 * [TweenScale](TweenScale.md)
 

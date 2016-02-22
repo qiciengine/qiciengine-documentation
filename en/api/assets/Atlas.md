@@ -20,6 +20,7 @@ The class for atlas and animation.
 | Method        | Description          |
 | ------------- |-------------|
 | [getFrame](atlas_getFrame.md) | Get a FrameData object from the atlas. |
+| [getTexture](atlas_getTexture.md) | Get a Texture object from the atlas. |
 | [getPadding](atlas_getPadding.md) | Get Nine-Patch information from the atlas. |
 
 ## Manual

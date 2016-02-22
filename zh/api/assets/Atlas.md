@@ -20,6 +20,7 @@
 | 方法名        | 作用           |
 | ------------- |-------------|
 | [getFrame](atlas_getFrame.md) | 取得图集下某个图片信息 |
+| [getTexture](atlas_getTexture.md) | 取得图集下某个图片的对象（包含图集对象、帧名） |
 | [getPadding](atlas_getPadding.md) | 取得某个图片的九宫格信息 |
 
 ## 参考手册

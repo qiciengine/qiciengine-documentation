@@ -15,7 +15,7 @@ inherit [qc.Node](CNode.md)
 ## 变量
 | 变量名        |  类型     |   作用           |
 | ------------- |-------------| -------------|
-| texture | qc.Atlas | 图片资源或图集 |
+| texture | qc.Texture | 图片资源 |
 | frame | string | 具体的图片帧，在 texture 为图集的时候，可以指定该 frame 表示子图片，如果是普通图片而不是图集，frame设置无效（默认为 0） |
 | nativeSize | qc.Rectangle | 只读，图片原始大小（不带任何缩放） |
 | [imageType](image_imageType.md) | 枚举 | 图片显示的方式，包含三种：UIImage.IMAGE_TYPE_SIMPLE（简单缩放）、UIImage.IMAGE_TYPE_SLICED（九宫格缩放）、UIImage.IMAGE_TYPE_TILED（九宫格平铺），详见 [UIImage.imageType](image_imageType.md) |
@@ -33,15 +33,13 @@ inherit [qc.Node](CNode.md)
 // 创建两张图片，一张普通，一张九宫格拉升（九宫格数据是  L:15、R:15、T:15、B:15）
 game.assets.load('ui', 'assets/sprites/ui.bin', function(data) {
     var image1 = game.add.image();
-    image1.texture = game.assets.find('ui');
-    image1.frame = 'arrow.png';
+    image1.texture = game.assets.find('ui').getTexture('arrow.png');
     image1.x = 100;
     image1.y = 100;
     image1.resetNativeSize();
 
     var image2 = game.add.image();
-    image2.texture = game.assets.find('ui');
-    image2.frame = 'arrow.png';
+    image2.texture = game.assets.find('ui').getTexture('arrow.png');
     image2.x = 200;
     image2.y = 30;
     image2.width = 200;
