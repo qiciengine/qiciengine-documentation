@@ -5,8 +5,8 @@ The Action Editor allows you to create and modify Animation Clips directly insid
 ## Instruction for Action Editor
 The Action Editor can be opened from the _Tool/Action Editor_ menu, or double click _Action Clip_ file in _Assets/Action_ folder. The following picture is the capture of Action Editor:  
 ![](image/preview.png)   
-
-The Action Editor is divided into three parts. Please see the following:  
+The Scene view, Hierarchy view, Inspector view in QICI editor workd with the Action Editor together, to show the currently selected object (_Target Object_) of the Action Editor.   
+The Action Editor is divided into three parts. Please see the following:   
 * The left side of the Action Editor is the _Action Property View_.    
   ![](image/buttons.png)   
   At the top of the _Action Property View_, there are some buttons: Record、Play、Next Frame、Previous Frame、Add Key Frame、Add Event.  

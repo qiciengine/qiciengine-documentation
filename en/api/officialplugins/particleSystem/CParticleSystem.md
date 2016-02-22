@@ -7,8 +7,7 @@ A Particle System simulates fluid entites such as liquids, clouds and flames by 
 ## Variables
 | Variable Name | Type | Description |
 | ------------- |-------------| -------------|
-| texture | qc.Atlas | The texture atlas that the particle will use. |
-| frames | Array | Array of frames that the particle will use. Frame is picked at random.  |
+| textures | Array | Array of textures that the particle will use. Texture is picked at random.  |
 | zoneType | number | The shape of the emission zone. Currently supports four types: Zone.POINT(point), Zone.LINE(line), Zone.CIRCLE(circle) and Zone.RECTANGLE(rectangle)  |
 | zoneLength | number | The length of emission zone. Only takes effect when zoneType is Zone.LINE. |
 | zoneRotation | number | The rotation of emission zone. Only takes effect when zoneType is Zone.LINE. |

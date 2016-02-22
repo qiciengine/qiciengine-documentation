@@ -345,6 +345,7 @@
     * [TweenAlpha](components/TweenAlpha.md)
     * [TweenColor](components/TweenColor.md)
     * [TweenPosition](components/TweenPosition.md)
+    * [TweenTransform](components/TweenTransform.md)
     * [TweenRotation](components/TweenRotation.md)
     * [TweenScale](components/TweenScale.md)
     * [TweenProperty](components/TweenProperty.md)

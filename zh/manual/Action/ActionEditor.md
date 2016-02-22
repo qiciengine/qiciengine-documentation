@@ -5,7 +5,7 @@
 ## 动作编辑器介绍  
 可通过菜单 _Tool/Action Editor_，或双击 Assets/Action 目录下的 _动作剪辑_ 文件打开动作编辑器。以下是动作编辑器的界面截图：  
 ![](image/preview.png)   
-
+QICI编辑器的场景视图、Hierarchy视图、Inspector视图配合动作编辑器一起工作，用于显示动作编辑器的 _Target Object_对象当前帧的显示状态。  
 动作编辑器分为左中右三个部分，以下依次进行介绍：  
 * 动作编辑器左部是属性列表视图。  
   ![](image/buttons.png)   
