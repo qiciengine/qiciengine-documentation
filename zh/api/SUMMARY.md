@@ -182,6 +182,8 @@
     * [Atlas](assets/Atlas.md)
         * [getFrame](assets/atlas_getFrame.md)
         * [getPadding](assets/atlas_getPadding.md)
+        * [getTexture](assets/atlas_getTexture.md)
+    * [Texture](assets/Texture.md)    
     * [ExcelAsset](assets/ExcelAsset.md)
         * [findSheet](assets/excel_findSheet.md)
         * [parseToDate](assets/excel_parseToDate.md)

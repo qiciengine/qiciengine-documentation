@@ -23,7 +23,7 @@ var sprite = new qc.game.add.sprite(parent);
 | lastAnimationName | string | 只读，上一个（如果正在播放中，则为当前）播放的动作名 |
 | nativeSize | qc.Rectangle | 当前 Sprite 所用到的图片的原始大小 |
 | paused | bool | 属性，动作是否暂停 && 设置暂停动作 |
-| texture | qc.Atlas | 动画资源（qc.Atlas对象，可通过  game.assets.find(key) 来获取)，若有动画信息，则创建动画管理器 |
+| texture | qc.Texture | 动画资源（qc.Texture对象，可通过  game.assets.find(key).getTexture(0) 来获取)，若有动画信息，则创建动画管理器 |
 
 ## 事件
 |   事件名      |     作用       |
@@ -46,7 +46,7 @@ var sprite = new qc.game.add.sprite(parent);
 bot = new game.add.sprite()
 bot.x = 100;
 bot.y = 200;
-bot.texture = game.assets.find('bot');
+bot.texture = game.assets.find('bot').getTexture(0);
 bot.playAnimation('run', 1.5 /* 倍率 */, true /* 循环 */);
 ````
 
