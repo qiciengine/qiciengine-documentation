@@ -20,6 +20,7 @@ See: [qc.GameObjectFactory#scrollBar](scrollBar.md)
 | numberOfStep | number | The number of steps to use for the value. A value of 0 disables use of steps. |
 | stepSize | number | The Step size. |
 | fixSlidersSize | bool | The size of slider is fixed. |
+| autoHide | bool | Whether hide the scrollbar automatically when the slider size is equal to slide area. |
 
 ## Events
 | Event  | Description |

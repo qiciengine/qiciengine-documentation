@@ -20,6 +20,7 @@ var scrollbar = new qc.game.add.scrollbar(parent);
 | numberOfStep | number | 滑动时，滑块从 0 到 1 的步数 |
 | stepSize | number | 滚动时每步改变的值 |
 | fixSlidersSize | bool | 是否固定滑条大小 |
+| autoHide | bool | 当滑块长度和滑块区域长度相等时，是否将滚动条隐藏 |
 
 ## 事件
 | 事件名  | 作用 |
