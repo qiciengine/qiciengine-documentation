@@ -108,7 +108,7 @@ background.resetNativeSize();
 
 ## ScrollView属性
 ![](images/scroll2.png)
-* __Content__: 滚动视图内容，node.content = content。滚动视图自动计算本节点的一级孩子包围盒作为滚动内容大小。
+* __Content__: 滚动视图内容，node.content = content。滚动视图将自动计算本节点及其所有可视的一级孩子节点的包围盒，并将其作为滚动内容的大小。所以可以设置content宽高来控制滚动窗口的最小尺寸。
 * __Horizontal Scroll:__ 水平滚动
 	* Horizontal: 是否允许水平滚动，node.canHorizontal = true;
 	* ScrollBarH: 绑定水平滚动条对象，node.horizontalScrollBar = scrollBar;
