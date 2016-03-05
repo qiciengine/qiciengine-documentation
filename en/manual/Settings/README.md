@@ -18,7 +18,7 @@ Select __'Project/Settings...'__ from main menu
 * __Fixed Game Size/Height__ - The height for fixed game size
 * __Background Color__ - The background color of this game
 * __Transparent__ - Determines transparent or not in game background
-* __Renderer__ - Determine the render mode: WebGL, Canvas or Auto
+* __Renderer__ - Determine the render mode: Canvas or Auto
 * __Run in Background__ - Determines whether or not to continue run the game when focus lost 
 * __Antialias__ - Determines whether or not to enable antialias
 * __Developer Mode__ - If in developer mode, debug information will be printed to the browser's console
