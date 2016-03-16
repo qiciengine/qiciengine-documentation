@@ -4,8 +4,8 @@ QICI engine currently uses Arcade as physical system, and made some optimization
 
 ## Enable Arcade Physics
 
-Arcade Physics has been integrated in QICI editor as a built-in plugin. To enable the plugin, just open PluginManager panel through menu Plugins->PluginManager, and check the Arcade Physics option. 
-![](images/import_arcade.png) 
+Arcade Physics has been integrated in QICI editor as a built-in plugin. To enable the plugin, just open PluginManager panel through menu Plugins->PluginManager, and check the Arcade Physics option.
+![](images/import_arcade.png)
 
 ## RigidBody
 
@@ -15,10 +15,10 @@ Notice: We made some restrictions in the use of RigidBody, just comply to these 
 * Rotation set to rigidbody and it's parent node is not allowed.
 * Movement applied to rigidbody's parent node is not allowed.
 
-![](images/rigidbody.png) 
+![](images/rigidbody.png)
 
 ### mass
-The mass of the rigibody, when two rigidbodies collide their mass is used in the calculation to determine the exchange of velocity. 
+The mass of the rigibody, when two rigidbodies collide their mass is used in the calculation to determine the exchange of velocity.
 
 ````javascript
     var rigidbody = self.sprite1.getScript("qc.arcade.RigidBody");
@@ -28,14 +28,14 @@ The mass of the rigibody, when two rigidbodies collide their mass is used in the
 ````
 
 ### moves
-Whether allow the physics system to move this rigidbody. 
+Whether allow the physics system to move this rigidbody.
 ````javascript
     // allow physics system to control the position of rigidbody
     rigidbody.moves = true;
 ````
 
 ### immovable
-Whether this rigidbody will not receive any impacts from other rigidbodies. 
+Whether this rigidbody will not receive any impacts from other rigidbodies.
 ````javascript
     rigidbody.immovable = true;
 ````
@@ -63,7 +63,7 @@ The local gravity setting of the rigidbody. Defaults to x: 0, y: 0
 ````
 
 ### bounce
-The elasticity of the rigidbody when colliding, bounce.x/y = 1 means full rebound, bounce.x/y = 0.5 means 50% rebound velocity. 
+The elasticity of the rigidbody when colliding, bounce.x/y = 1 means full rebound, bounce.x/y = 0.5 means 50% rebound velocity.
 
 ````javascript
     // 50% rebound when colliding
@@ -71,7 +71,7 @@ The elasticity of the rigidbody when colliding, bounce.x/y = 1 means full reboun
     rigidbody.bounce.y = 0.5;
 ````
 
-### vilocity
+### velocity
 Velocity of the rigidbody.
 
 ### acceleration
@@ -81,8 +81,8 @@ The rate of change of the velocity.
 The drag applied to the motion of the rigidbody.
 
 ````javascript
-    rigidbody.vilocity.x = 100;
-    rigidbody.vilocity.y = 50;
+    rigidbody.velocity.x = 100;
+    rigidbody.velocity.y = 50;
 
     rigidbody.acceleration.x = 10;
     rigidbody.acceleration.y = 5;
@@ -95,7 +95,7 @@ The drag applied to the motion of the rigidbody.
 Allow this rigidbody to be rotated?
 
 ### angularVelocity
-The rotation speed of the rigidbody. Measured in radians per second. 
+The rotation speed of the rigidbody. Measured in radians per second.
 
 ### angularAcceleration
 The rate of change of the angular velocity.

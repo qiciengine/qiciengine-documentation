@@ -71,7 +71,7 @@
     rigidbody.bounce.y = 0.5;
 ````
 
-### vilocity
+### velocity
 移动速度
 
 ### acceleration
@@ -82,8 +82,8 @@
 
 ````javascript
     // 设定刚体的移动速度
-    rigidbody.vilocity.x = 100;
-    rigidbody.vilocity.y = 50;
+    rigidbody.velocity.x = 100;
+    rigidbody.velocity.y = 50;
 
     // 设定刚体的加速度
     rigidbody.acceleration.x = 10;
