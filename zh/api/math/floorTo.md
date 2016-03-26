@@ -17,17 +17,17 @@
 ## 范例
 ````
     // 返回 200
-    var ret = game.math.roundTo(285.7142, 2);
+    var ret = game.math.floorTo(285.7142, 2);
 
     // 返回 280
-    var ret = game.math.roundTo(285.7142, 1);
+    var ret = game.math.floorTo(285.7142, 1);
 
     // 返回 285
-    var ret = game.math.roundTo(285.7142, 0);
+    var ret = game.math.floorTo(285.7142, 0);
 
     / 返回 285.7
-    var ret = game.math.roundTo(285.7162, -1);
+    var ret = game.math.floorTo(285.7162, -1);
 
     / 返回 285.71
-    var ret = game.math.roundTo(285.7162, -2);
+    var ret = game.math.floorTo(285.7162, -2);
 ````

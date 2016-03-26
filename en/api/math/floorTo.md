@@ -18,17 +18,17 @@ The `place` is represented by the power applied to `base` to get that place.
 ## Example
 ````
     // return 200
-    var ret = game.math.roundTo(285.7142, 2);
+    var ret = game.math.floorTo(285.7142, 2);
 
     // return 280
-    var ret = game.math.roundTo(285.7142, 1);
+    var ret = game.math.floorTo(285.7142, 1);
 
     // return 285
-    var ret = game.math.roundTo(285.7142, 0);
+    var ret = game.math.floorTo(285.7142, 0);
 
     / return 285.7
-    var ret = game.math.roundTo(285.7162, -1);
+    var ret = game.math.floorTo(285.7162, -1);
 
     / return 285.71
-    var ret = game.math.roundTo(285.7162, -2);
+    var ret = game.math.floorTo(285.7162, -2);
 ````
