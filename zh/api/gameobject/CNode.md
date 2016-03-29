@@ -36,7 +36,7 @@ var node = new qc.game.add.node(parent);
 | scaleY | number | 节点在 Y 轴上的缩放 |
 | pivotX | number | 节点自身的原点X位置（0为左边，1为右边） |
 | pivotY | number | 节点自身的原点Y位置（0为上边，1为下边） |
-| rotation | number | 旋转角度。在代码中，使用弧度为单位。在编辑器的Inspector面板中，使用弧度为单位。 |
+| rotation | number | 旋转角度。在代码中，使用弧度为单位。在编辑器的Inspector面板中，使用角度为单位。 |
 | width | number | 节点的宽度 |
 | height | number | 节点的高度 |
 | minAnchor | [qc.Point](../geom/Point.md) | 只读，定位矩形左上角的坐标（相对于父亲长宽的比例值），请使用方法 [setAnchor](node_setAnchor.md) 进行设置。|
