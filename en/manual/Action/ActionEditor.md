@@ -8,77 +8,95 @@ The Action Editor can be opened from the _Tool/Action Editor_ menu, or double cl
 The Scene view, Hierarchy view, Inspector view in QICI editor workd with the Action Editor together, to show the currently selected object (_Target Object_) of the Action Editor.   
 The Action Editor is divided into three parts. Please see the following:   
 * The left side of the Action Editor is the _Action Property View_.    
-  ![](image/buttons.png)   
-  At the top of the _Action Property View_, there are some buttons: Record、Play、Next Frame、Previous Frame、Add Key Frame、Add Event.  
+	1. At the top of the _Action Property View_, there are some buttons: Record, Play, Previous Frame, Next Frame, Add Key Frame, Add Event. See the bellow picture:  
+	![](image/buttons.png)   
   
-  ![](image/propertyList.png)   
-  The buttom of the _Action Property View_ is the _Action Property List_. If no _Action Clip_ file is loaded, this list will be empty, the buttons in the _Action Property View_ are disabled.
-When an _Action Clip_ file is loaded, the animated properties of the _Action Clip_ will appear here.   
-  If the _Action Clip_ controls multiple child objects, the list will also include a hierarchical list of each child object’s animated properties. In the example above, node、Sound、Sprite objects are all animated within the same _Action Clip_, and each animated GameObject is shown according to its hierarchical position in relation to the root object which has the [_Animator_](Animator.md) component attached.   
-  At the right side of each property, there is a '-' button that is used to remove the property. At the right side of each exact attribution, there are '+' and '-' buttons that are used to add and delete keyframe of this attribution.  
+	2. The buttom of the _Action Property View_ is the _Action Property List_. See the bellow picture.   
+	![](image/propertyList.png)   
+	If no _Action Clip_ file is loaded, this list will be empty, the buttons in the _Action Property View_ are disabled. When an _Action Clip_ file is loaded, the animated properties of the _Action Clip_ will appear here.   
+	
+	If the _Action Clip_ controls multiple child objects, the list will also include a hierarchical list of each child object’s animated properties. In the example above, node、Sound、Sprite objects are all animated within the same _Action Clip_, and each animated GameObject is shown according to its hierarchical position in relation to the root object which has the [_Animator_](Animator.md) component attached.   
+	
+	At the right side of each property, there is a '-' button that is used to remove the property. At the right side of each exact attribution, there are '+' and '-' buttons that are used to add and delete keyframe of this attribution.  
   
-  ![](image/blueKeys.png)   ![](image/valueField.png)  
-  Each property can be folded and unfolded to reveal the exact attributes. When an attribution is selected, all the keyframes of this attribution will show with blue color in the _Timeline View_ of Action Editor, and the _Value_ field in the _Inspector View_ of Action Editor will show the exact value of this attribution in current frame where the playback head (the red line) point to.   
-  The _Value_ field can be edited directly. If changes are made when the playback head is over a keyframe, the keyframe’s values will be modified. If changes are made when the playback head is between keyframes (and therefore the value shown was an interpolated value), a new keyframe will be created at that point with the new value that you entered.   
+	Each property can be folded and unfolded to reveal the exact attributes. When an attribution is selected, all the keyframes of this attribution will show with blue color in the _Timeline View_ of Action Editor, and the _Value_ field in the _Inspector View_ of Action Editor will show the exact value of this attribution in current frame where the playback head (the red line) point to. See the bellow picture:  
+  	![](image/blueKeys.png)   ![](image/valueField.png)  
+	The _Value_ field can be edited directly. If changes are made when the playback head is over a keyframe, the keyframe’s values will be modified. If changes are made when the playback head is between keyframes (and therefore the value shown was an interpolated value), a new keyframe will be created at that point with the new value that you entered.   
 
-  ![](image/addProperty.png)  
-  You can browse all animatable properties on the current GameObject ( _Target Object_ ) and its children by clicking the _Add Property_ button. Any property can be animated by selecting it from the _Add Property_ button popup menu.
-If _Target Object_ is null, popup menu can't show when clicking the _Add Property_ button.    
+	By right-clicking the _Action Property View_, it will popup context menu. See the bellow picture:   
+	![](image/propertymenu.png)   
+	In the context menu, we can copy-and-paste action property. For example we copy a Position property, then we can paste all keyframes of this Position property to another Position property.   
+	When the child node's name is changed in Hierarchy View, the action property of the child node will show Missing. We can rename the child node to the new name to fix it.   
+	
+	You can browse all animatable properties on the current GameObject ( _Target Object_ ) and its children by clicking the _Add Property_ button. See the bellow picture:  
+	![](image/addProperty.png)  
+	Any property can be animated by selecting it from the _Add Property_ button popup menu. If _Target Object_ is null, popup menu can't show when clicking the _Add Property_ button.    
   
-  
-  
+ 
 * The middle of the Action Editor is the _Timeline View_.    
-  ![](image/timeline.png)   
-  The top of the _Timeline View_ is the timescale view. You can click anywhere or drag red block on the timescale view to preview or modify that frame in the _Action Clip_. The numbers in the Time Line are shown as seconds and frames, so 1:05 means 1 second and 5 frames.   
   
-  ![](image/eventLine.png)   
-  The next line of the timescale view is the _Action Event window_. You can add an action event to a clip at the current playhead position by clicking the _Add Event_ button or at any point in the action by right-clicking the _Action Event window_ and selecting Add Event from the contextual menu at the point where you want the event to be triggered. Once added, an event can be repositioned by dragging with the mouse. You can delete an event by selecting it and pressing Delete, or by right-clicking on it and selecting Delete Event from the contextual menu.   
-  You can press the left mouse button and drag to select multiple action events, then reposition these events at the same time by dragging the mouse.    
+	1. The top of the _Timeline View_ is the timescale view. See the bellow picture:    
+	![](image/timeline.png)   
+	You can click anywhere or drag red block on the timescale view to preview or modify that frame in the _Action Clip_. The numbers in the Time Line are shown as seconds and frames, so 1:05 means 1 second and 5 frames.   
   
-  ![](image/eventPanel.png)   
-  When you select an action event, the _Inspector View_ panel will show the event edit panel, choose an event function, and set multiple function parameters.  
+	2. The next line of the timescale view is the _Action Event window_.  See the bellow picture:  
+	![](image/eventLine.png)   
+	You can add an action event to a clip at the current playhead position by clicking the _Add Event_ button or at any point in the action by right-clicking the _Action Event window_ and selecting Add Event from the contextual menu at the point where you want the event to be triggered. Once added, an event can be repositioned by dragging with the mouse. You can delete an event by selecting it and pressing Delete, or by right-clicking on it and selecting Delete Event from the contextual menu.   
+	
+	You can press the left mouse button and drag to select multiple action events, then reposition these events at the same time by dragging the mouse.    
   
-  ![](image/frameView.png)   
-  The buttom of the _Timeline View_ is the keyframe view. The keyframes for each animated property appear in this keyframe view.   
-  In the region by scrolling the mouse wheel to zoom in or zoom out timeline. When the display area is exceeded, it will show vertical slider on the right side and horizontal slider on the bottom size, drag the slider bar to view the desired display area.    
-  Select a keyframe, the playhead will move to this frame, the _Inspector View_ panel will show the property panel for this keyframe. You can press the left mouse button and drag to select multiple keyframes, then reposition these keyframes at the same time by dragging the mouse.      
+	When you select an action event, the _Inspector View_ panel will show the event edit panel, choose an event function, and set multiple function parameters. See the bellow picture:   
+	![](image/eventPanel.png)   
   
-  You can add an keyframe of current attribution at the current playhead position by clicking the _Add Key Frame_ button or clicking the '+' button on the right side of current attribution, or at any point in the keyframe view by right-clicking the keyframe view and selecting Add Key from the contextual menu at the point where you want to add a keyframe. 
-  Once added, an keyframe can be repositioned by dragging with the mouse. You can delete an keyframe by selecting it and pressing Delete, or by right-clicking on it and selecting Delete Key from the contextual menu, or by clicking the '-' button on the right side of current attribution.     
+	3. The buttom of the _Timeline View_ is the keyframe view. The keyframes for each animated property appear in this keyframe view. See the bellow picture:   
+	![](image/frameView.png)   
+	In the region by scrolling the mouse wheel to zoom in or zoom out timeline. When the display area is exceeded, it will show vertical slider on the right side and horizontal slider on the bottom size, drag the slider bar to view the desired display area.    
   
+	Select a keyframe, the playhead will move to this frame, the _Inspector View_ panel will show the property panel for this keyframe. You can press the left mouse button and drag to select multiple keyframes, then reposition these keyframes at the same time by dragging the mouse.      
   
+	You can add an keyframe of current attribution at the current playhead position by clicking the _Add Key Frame_ button or clicking the '+' button on the right side of current attribution, or at any point in the keyframe view by right-clicking the keyframe view and selecting Add Key from the contextual menu at the point where you want to add a keyframe. 
+	Once added, an keyframe can be repositioned by dragging with the mouse. You can delete an keyframe by selecting it and pressing Delete, or by right-clicking on it and selecting Delete Key from the contextual menu, or by clicking the '-' button on the right side of current attribution.     
   
 * The right side of the Action Editor is the _Inspector View_. The _Inspector View_ is divided into three parts.   
-  ![](image/actionFile.png)  
-  The top part is used to create、load、save _Action Clip_ file.    
+	1. The top part is used to create, load, save _Action Clip_ file. See the bellow picture:     
+	![](image/actionFile.png)  
   
-  ![](image/action.png)  
-  The center part is used to config properties of the _Action Clip_. There are four properties: name, targetObject, targetLocked, loop.   
-  Name: The action's name, the _Action Clip_ file's name by default.  
-  Target Object: The gameObject who play the _Action Clip_ file. If it's null, the _Action Clip_ file cann't be played.       
-  Target Locked: Whether targetObject is locked. If it's not locked, the [_Animator_](Animator.md) component's gameObject will be set as the targetObject of the _Action Clip_. Or else the targetObject is fixed.     
-  Loop: Whether the _Action Clip_ is loop.     
-  
-  ![](image/curvePanel.png)   ![](image/eventPanel.png)  
-  The buttom part is used to show property panel and event panel. When select a attribution or a keyframe, the property panel shows. When select an action event, the event panel shows.   
-  The property panel has two type: curve type and key type. If the value of attribution is number, the property panel show in curve type for this attribution, or else the property panel show in key type, such as texture like the following:   
-  ![](image/texture.png)   
+	2. The center part is used to config properties of the _Action Clip_. There are these properties: Name, Target Object, Target Locked, Loop, Duration. See the bellow picture:   
+	![](image/action.png)   
+	These properties's description is the following:   
+	> Name: The action's name, the _Action Clip_ file's name by default.  
+	> Target Object: The gameObject who play the _Action Clip_ file. If it's null, the _Action Clip_ file cann't be played.       
+	> Target Locked: Whether targetObject is locked. If it's not locked, the [_Animator_](Animator.md) component's gameObject will be set as the targetObject of the _Action Clip_. Or else the targetObject is fixed.     
+	> Loop: Whether the _Action Clip_ is loop.    
+	> Duration: The action's duration of single loop.  	
+     
+	3. The buttom part is used to show property panel and event panel.   
+	When select an action event, the event panel shows. See the bellow picture:     
+	![](image/eventPanel.png)  
+	
+	When select a attribution or a keyframe, the property panel shows. See the bellow picture:  
+	![](image/curvePanel.png)	
+	
+	The property panel has two type: curve type and key type. If the value of attribution is number, the property panel show in curve type for this attribution, or else the property panel show in key type, such as texture like the following:   
+	![](image/texture.png)   
   
 ## Instruction for Curve Type  
 ### Curve Type    
 There are four curve types:    
-* ![](image/curvePanel.png) Absolute: The value is absolute value, is the real property value of gameObject. Take x property for example, if the value is 110, then the gameObject's x value is also 110.  
-* ![](image/relative.png) Relative: The value is the offset value relative to the _From_ value. The _From_ value is the current property value of gameObject. The _From_ value will be set as the current property value of gameObject by clicking the _Set Curr To Start_ button.
-In game running, the _From_ value will be set as the current property value of gameObject. Take x property for example, when gameObject's x value in the 0 frame is 100, the _From_ value is 100, if the value is 10, then the gameObject's x value is 100+10=110.    
-* ![](image/tweenAbsolute.png) TweenAbsolute: The value is the ratio value of (_To_ - _From_) value. The _From_ value is the real property value in the (0,0) of [Curve Editor](#curve-editor), the _To_ value is the real property value in the (0,1) of [Curve Editor](#curve-editor).
-Take x property for example, if the _From_ value is 100, the _To_ value is 200, the value is 0.1, then the gameObject's x value is 100+(200-100)*0.1=110.  
-* ![](image/tweenRelative.png) TweenRelative: The value is the ratio value of _Distance_. The _From_ value is same as _Relative_. Take x property for example, when gameObject's x value in the 0 frame is 100, the _From_ value is 100, if the _Distance_ value is 100, and the value is 0.1, then the gameObject's x value is 100+100*0.1=110.       
-  
-  
-_TweenAbsolute type is same as [Tween](../Tween/README.md) component. There are the From and To values. The value is generally between 0 and 1. Using TweenAbsolute and TweenRelative, we can change the From and To value in code. It's also same as [Tween](../Tween/README.md)._  
+* Absolute: The value is absolute value, is the real property value of gameObject. Take x property for example, if the value is 110, then the gameObject's x value is also 110.  See the bellow picture:  
+	![](image/curvePanel.png)  
+* Relative: The value is the offset value relative to the _From_ value. The _From_ value is the current property value of gameObject. The _From_ value will be set as the current property value of gameObject by clicking the _Set Curr To Start_ button.
+In game running, the _From_ value will be set as the current property value of gameObject. Take x property for example, when gameObject's x value in the 0 frame is 100, the _From_ value is 100, if the value is 10, then the gameObject's x value is 100+10=110.  See the bellow picture:  
+	![](image/relative.png)   
+* TweenAbsolute: The value is the ratio value of (_To_ - _From_) value. The _From_ value is the real property value in the (0,0) of [Curve Editor](#curve-editor), the _To_ value is the real property value in the (0,1) of [Curve Editor](#curve-editor).
+Take x property for example, if the _From_ value is 100, the _To_ value is 200, the value is 0.1, then the gameObject's x value is 100+(200-100)*0.1=110.  See the bellow picture:  
+	![](image/tweenAbsolute.png)  
+* TweenRelative: The value is the ratio value of _Distance_. The _From_ value is same as _Relative_. Take x property for example, when gameObject's x value in the 0 frame is 100, the _From_ value is 100, if the _Distance_ value is 100, and the value is 0.1, then the gameObject's x value is 100+100*0.1=110. See the bellow picture:  
+	![](image/tweenRelative.png)  
+	_TweenAbsolute type is same as [Tween](../Tween/README.md) component. There are the From and To values. The value is generally between 0 and 1. Using TweenAbsolute and TweenRelative, we can change the From and To value in code. It's also same as [Tween](../Tween/README.md)._  
 
 ### Curve Editor
-Click curve button to open curve editor, see the following:  
+Click curve button to open curve editor, see the following:   
 ![](image/curveEditor.png)   
 The x-axis is frame, y-axis is the curve value.  
 In the Curve Editor, you can add, delete, move keyframes, you can also modify the in-angle and out-angle of each keyframe.  The keyframes in the Curve Editor and the keyframes in the keyframe view is one-to-one match, change the keyframes in the Curve Editor, will be in the keyframe view simultaneously reflected.  
