@@ -26,7 +26,7 @@ var sprite = new qc.game.add.sprite(parent);
 | lastAnimationName | string | Read only. Last animation name played. |
 | nativeSize | qc.Rectangle | The texture's real size. |
 | paused | bool | Pause / Resume playing animation. |
-| texture | qc.Atlas | The texture atlas. |
+| texture | qc.Texture | The texture atlas. |
 
 ## Events
 |   Event      |     Description       |

@@ -15,7 +15,7 @@ A standard button that can be clicked in order to trigger an event.
 |   Event      |     Description       |
 | ------------- |-------------|
 | onStateChange | When button's state changed, this event is triggered. |
-| onValueChange | When value changed, this event is triggered. |
+| onNativeClick | When native click, this event is triggered. |
 
 ## Manual
 [Button](http://docs.qiciengine.com/manual/Sample/Button.html)

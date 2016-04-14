@@ -98,6 +98,10 @@ var node = new qc.game.add.node(parent);
 | [getWorldScale](node_getWorldScale.md) | 获取节点在全局坐标系中的缩放 |
 | [getWorldRotation](node_getWorldRotation.md) | 获取节点在全局坐标系中的旋转弧度 |
 | [switchParent](node_switchParent.md) | 切换父节点为指定节点，并保证本节点在世界坐标系中的状态不变 |
+| [getWorldCorners](node_getWorldCorners.md) | 获取节点在世界坐标中的四个角 |
+| [getWorldBox](node_getWorldBox.md) | 获取节点在世界坐标的包围盒 |
+| [getBoxIn](node_getBoxIn.md) | 获取节点在指定节点坐标系中的包围盒 |
+| [rectContains](node_rectContains.md) | 判断世界坐标中的某个点是否在矩形框的范围内 |
 | [toGlobal](node_toGlobal.md) | 本地坐标转换为全局坐标 |
 | [toLocal](node_toLocal.md) | 全局坐标转换为本地坐标 |
 | [setAnchor](node_setAnchor.md) | 设置锚点定位范围 |

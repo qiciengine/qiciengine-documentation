@@ -14,7 +14,7 @@ Note that: the difference between UIImage and CSprite is, CSprite can be used fo
 ## Variables
 | Variable Name        |  Type     |   Description           |
 | ------------- |-------------| -------------|
-| texture | qc.Atlas | The texture altas used for UIImage. |
+| texture | qc.Texture | The texture altas used for UIImage. |
 | frame | string | The frame's name in the texture atlas. |
 | nativeSize | qc.Rectangle | Read only. The frame's size. |
 | [imageType](image_imageType.md) | enum | How the Image is draw: UIImage.IMAGE_TYPE_SIMPLE, UIImage.IMAGE_TYPE_SLICED, UIImage.IMAGE_TYPE_TILED. See: [UIImage.imageType](image_imageType.md) |

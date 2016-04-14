@@ -26,8 +26,9 @@ inherit [qc.UIImage](CUIImage.md)
 ## 事件
 |   事件名      |     作用       |
 | ------------- |-------------|
-| onValueChange | 文本发生改变的事件 |
-| onStateChange | 状态发生变化的事件 |
+| onValueChange | 状态发生改变的事件 |
+| onStateChange | 文本发生变化的事件 |
+
 
 ## 参考手册
 [输入框](http://docs.zuoyouxi.com/manual/Sample/InputField.html)

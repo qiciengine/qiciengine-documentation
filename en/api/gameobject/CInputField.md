@@ -26,8 +26,8 @@ Turn a simple label into an interactable input field.
 ## Events
 |   Event      |     Description       |
 | ------------- |-------------|
-| onStateChange | When button's state changed, this event is triggered. |
-| onNativeClick | Focus on click event by self. |
+| onStateChange | When input field's state changed, this event is triggered. |
+| onValueChange | When input field's content changed, this event is triggered. |
 
 ## Manual
 [InputField](http://docs.qiciengine.com/manual/Sample/InputField.html)

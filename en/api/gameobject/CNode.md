@@ -97,6 +97,10 @@ var node = new qc.game.add.node(parent);
 | [getWorldScale](node_getWorldScale.md) | Get the world scale of node. |
 | [getWorldRotation](node_getWorldRotation.md) | Get the world rotation of node. |
 | [switchParent](node_switchParent.md) | Change the node's parent and hold position. |
+| [getWorldCorners](node_getWorldCorners.md) | Get the node's four corners relative to world position. |
+| [getWorldBox](node_getWorldBox.md) | Get the node's bounding box relative to world position. |
+| [getBoxIn](node_getBoxIn.md) | Get the node's bounding box relative to a specific node. |
+| [rectContains](node_rectContains.md) | Check if a world position is in the rectangle area. |
 | [toGlobal](node_toGlobal.md) | Convert local position to world position. |
 | [toLocal](node_toLocal.md) | Convert world position to local position. |
 | [setAnchor](node_setAnchor.md) | Set the distance of this rectangle relative to a specified edge of the parent rectangle, while also setting its size. |

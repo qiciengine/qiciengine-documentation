@@ -1,5 +1,5 @@
 # qc.ProgressBar
-inherit [qc.ProgressBar](CProgressBar.md)
+inherit [qc.UIImage](CUIImage.md)
 
 ## 描述
 滑动条控件

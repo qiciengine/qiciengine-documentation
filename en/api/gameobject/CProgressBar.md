@@ -1,5 +1,5 @@
 # qc.ProgressBar
-inherit [qc.ProgressBar](CProgressBar.md)
+inherit [qc.UIImage](CUIImage.md)
 
 ## Description
 Represents a progress bar control.
