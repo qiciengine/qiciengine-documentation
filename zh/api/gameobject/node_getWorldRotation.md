@@ -1,7 +1,7 @@
 # [qc.Node](CNode.md).getWorldRotation
 
 ## 原型
-* [qc.Point](../geom/Point.md) getWorldRotation(void)
+* number getWorldRotation(void)
 
 ## 描述
 获取节点在全局坐标系中的旋转弧度。

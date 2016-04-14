@@ -21,6 +21,7 @@ The GameObjectFactory is a quick way to create many common game objects.
 | [sprite](sprite.md) | Create a [Sprite](CSprite.md). |
 | [text](text.md) | Create a [UIText](CUIText.md). |
 | [toggle](toggle.md) | Create a [Toggle](CToggle.md). |
+| [dom](dom.md) | Create a [Dom](CDom.md). |
 | [tilemap](tilemap.md) | Create a [Tilemap](CTilemap.md). |
 | [tileLayer](tileLayer.md) | Create a [TileLayer](CTileLayer.md). |
 | [objectLayer](objectLayer.md) | Create a [ObjectLayer](CObjectLayer.md). |

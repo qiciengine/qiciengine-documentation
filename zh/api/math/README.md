@@ -11,6 +11,7 @@
 | [fuzzyGreaterThan](fuzzyGreaterThan.md) | 浮点数大于比较 |
 | [fuzzyCeil](fuzzyCeil.md) | 浮点数向上取整 |
 | [fuzzyFloor](fuzzyFloor.md) | 浮点数向下取整 |
+| [shuffle](shuffle.md) | 将数组中的元素随机打乱 |
 | [average](average.md) | 求平均值 |
 | [shear](shear.md) | 取小数点后的数值 |
 | [snapTo](snapTo.md) | 以指定间隔数进行四舍五入 |

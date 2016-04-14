@@ -1,7 +1,7 @@
 # [qc.Node](CNode.md).getWorldRotation
 
 ## Prototype
-* [qc.Point](../geom/Point.md) getWorldRotation(void)
+* number getWorldRotation(void)
 
 ## Description
 Get the world rotation of node.

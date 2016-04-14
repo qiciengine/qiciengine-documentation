@@ -12,6 +12,7 @@ This class represents a singleton object that can be accessed directly as `game.
 | [fuzzyGreaterThan](fuzzyGreaterThan.md) | `a` is fuzzyGreaterThan `b` if it is more than b - epsilon    |
 | [fuzzyCeil](fuzzyCeil.md) | ceiling(val-epsilon)  |
 | [fuzzyFloor](fuzzyFloor.md) | floor(val-epsilon)  |
+| [shuffle](shuffle.md) | Shuffles the data in the given array into a new order. |
 | [average](average.md) | Averages all values passed to the function and returns the result.   |
 | [shear](shear.md) | n mod 1 |
 | [snapTo](snapTo.md) | Snap a value to nearest grid slice, using rounding.   |

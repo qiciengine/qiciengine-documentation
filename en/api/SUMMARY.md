@@ -225,6 +225,7 @@
     * [fuzzyGreaterThan](math/fuzzyGreaterThan.md)
     * [fuzzyCeil](math/fuzzyCeil.md)
     * [fuzzyFloor](math/fuzzyFloor.md)
+    * [shuffle](math/shuffle.md)
     * [average](math/average.md)
     * [shear](math/shear.md)
     * [snapTo](math/snapTo.md)
