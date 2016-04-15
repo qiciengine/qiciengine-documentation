@@ -13,6 +13,7 @@ Common interface have been wrapped in [qc.Input](Input.md).
 
 ## Event
 | Event | Description |
+| ------------- |-------------|
 | onTouchStart |When touch start, the event is trigged. Event parameter is (id, worldX, worldY) |
 | onTouchEnd | When touch end, the event is trigged. Event parameter is (id, worldX, worldY) |
 | onTouchMove | When touch move, the event is trigged. Event parameter is (id, worldX, worldY) |

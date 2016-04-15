@@ -9,7 +9,7 @@ Used for record information of key event.
 | game | [qc.Game](../game/README.md) | Read only. game instance |
 | keyCode | number | Key code, see : [qc.Keyboard](Keyboard.md) |
 | isJustDown | boolean | Whether key is pressed in current frame |
-| isJuseUp | boolean | Whether key pop up in current frame |
+| isJustUp | boolean | Whether key pop up in current frame |
 | isDown | boolean | Whether key is pressed |
 
 ## Method

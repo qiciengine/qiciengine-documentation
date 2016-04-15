@@ -7,4 +7,4 @@ Event of drag start.
 ## Paramters
 | Paramter | Type | Description |
 | ------------- |-------------|-------------|
-| started | boolean | Whether drag is stated |
+| started | boolean | Whether drag is started |
