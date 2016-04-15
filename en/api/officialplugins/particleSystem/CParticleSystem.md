@@ -7,8 +7,9 @@ A Particle System simulates fluid entites such as liquids, clouds and flames by 
 ## Variables
 | Variable Name | Type | Description |
 | ------------- |-------------| -------------|
-| textures | Array | Array of textures that the particle will use. Texture is picked at random.  |
+| texture | qc.Texture | The texture that particles will use.  |
 | zoneType | number | The shape of the emission zone. Currently supports four types: Zone.POINT(point), Zone.LINE(line), Zone.CIRCLE(circle) and Zone.RECTANGLE(rectangle)  |
+| edgeEmission | bool | Whether the particles will be emitted from the edge of the zone. |
 | zoneLength | number | The length of emission zone. Only takes effect when zoneType is Zone.LINE. |
 | zoneRotation | number | The rotation of emission zone. Only takes effect when zoneType is Zone.LINE. |
 | zoneRadius | number | The radius of emission zone. Only takes effect when zoneType is Zone.CIRCLE. |
@@ -21,8 +22,10 @@ A Particle System simulates fluid entites such as liquids, clouds and flames by 
 | lifespan | Array | How long each particle lives once it is emitted in seconds. |
 | angle | Array | The emission angle of particles, the value is picked at random within specified min-max range. |
 | blendMode | number | The blend mode of particle. |
-| srcColorTint | qc.Color | The start color of particle. |
-| dstColorTint | qc.Color | The target color of particle. |
+| startColor | qc.Color | The start color of particle. |
+| startColorVariation | number | The variation of start color. |
+| endColor | qc.Color | The target color of particle. |
+| endColorVariation | number | The variation of end color. |
 | startAlpha | Array | The transparency of particles, the value is picked at random within specified min-max range. |
 | startScale | Array |  The start scale of particles, the value is picked at random within specified min-max range. |
 | startRotation | Array | The start rotation of particles, the value is picked at random within specified min-max range. |
@@ -31,6 +34,8 @@ A Particle System simulates fluid entites such as liquids, clouds and flames by 
 | gravity | qc.Point | The gravity of particle systems. |
 | maxParticles | number | The maximum number of particles, the emission will be stopped when the number of particles exceeds this value. |
 | playOnAwake | boolean | Whether the particle system will start playing automatically. |
+| initialFrame | Array | The initial frame of a particle when play sprite sheet animation, the value is picked at random within specified min-max range. |
+| frameRate | Array | The frame rate of animation, the value is picked at random within specified min-max range. |
 | enableColorCurve | boolean | Whether enable a curve to control the color of particles. |
 | colorCurve | qc.BezierCurve | Curve to control the color of particles, the color will vary linearly between start color and target color if the curve is disabled. |
 | enableAlphaCurve | boolean | Whether enable a curve to control the transparency of particles. |
