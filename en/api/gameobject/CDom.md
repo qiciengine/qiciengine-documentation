@@ -19,7 +19,6 @@ Dom node, is a div. Because it does not need render each frame, it is very effic
 |   Event      |     Description       |
 | ------------- |-------------|
 | onVisibleChange | When father or self's visual property  change, the event will be fired. |
-| onStateChange | When state changes, the event will be fired.|
 
 ## Manual
 [Dom](http://docs.qiciengine.com/manual/Sample/Dom.html)

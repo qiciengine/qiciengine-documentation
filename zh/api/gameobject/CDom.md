@@ -19,7 +19,6 @@ Dom节点，本质上就是个div。由于不需要每帧进行渲染，非常�
 |   事件名      |     作用       |
 | ------------- |-------------|
 | onVisibleChange | 父亲或自身的可见属性发生变化了的事件 |
-| onStateChange | 开关的 state 值发生变化的事件 |
 
 ## 参考手册
 [Dom节点](http://docs.zuoyouxi.com/manual/Sample/Dom.html)
