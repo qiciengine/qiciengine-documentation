@@ -20,7 +20,7 @@ var scrollView = new qc.game.add.scrollView(parent);
 | decelerationRate | number | The rate at which movement slows down. |
 | scrollSensitivity | number | The sensitivity to scroll wheel and track pad scroll events. |
 | propagationScroll | bool | Whether the scroll event is passed to the upper. |
-| content | [qc.Node](CNode.md） | The content that can be scrolled. It should be a child of this scrollView. |
+| content | [qc.Node](CNode.md) | The content that can be scrolled. It should be a child of this scrollView. |
 | horizontalScrollBar | [qc.ScrollBar](CScrollBar.md) or null | Optional Scrollbar object linked to the horizontal scrolling of the ScrollView. |
 | horizontalNormalizedPosition | number | The horizontal scroll position between 0 and 1. |
 | verticalScrollBar | [qc.ScrollBar](CScrollBar.md) or null | Optional Scrollbar object linked to the vertical scrolling of the ScrollView. |

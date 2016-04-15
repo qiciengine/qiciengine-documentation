@@ -20,7 +20,7 @@ var scrollView = new qc.game.add.scrollView(parent);
 | decelerationRate | number | 惯性滑动的减速参数 |
 | scrollSensitivity | number | 响应滚动时的倍率 |
 | propagationScroll | bool | 是否向上传递滚动事件 |
-| content | [qc.Node](CNode.md） | 需要滚动显示的内容 |
+| content | [qc.Node](CNode.md) | 需要滚动显示的内容 |
 | horizontalScrollBar | [qc.ScrollBar](CScrollBar.md) or null | 水平滚动条，该 ScrollBar 的滑动会影响 ScrollView 的水平值，反之亦然 |
 | horizontalNormalizedPosition | number | 水平方向滚动的比例（0 - 1） |
 | verticalScrollBar | [qc.ScrollBar](CScrollBar.md) or null | 垂直滚动条，该 ScrollBar 的滑动会影响 ScrollView 的纵向值，反之亦然 |
