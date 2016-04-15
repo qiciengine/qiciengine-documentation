@@ -1,8 +1,8 @@
 # [qc.ExcelSortSheetIndex](ExcelSortSheetIndex.md).first
 
 ## 原型
-* int find(string... cellValue)
-* int find(int... cellValue)
+* int first(string... cellValue)
+* int first(int... cellValue)
 
 ## 参数说明
 | 参数名 | 类型 | 说明 |
