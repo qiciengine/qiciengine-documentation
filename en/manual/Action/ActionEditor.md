@@ -195,6 +195,9 @@ We use the [setData](http://docs.qiciengine.com/api/action/setData.html) method 
 	// set samples  
 	action.samples = 60;
 	
+	// set play speed
+	action.speed = 2;
+	
 	// play test action
 	this.gameObject.Animator.play('test');
 ````  

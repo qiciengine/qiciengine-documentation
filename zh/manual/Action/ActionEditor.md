@@ -192,6 +192,9 @@ qc.Action 的 setData 方法请查看下面的 API 文档说明。
 	// set samples  
 	action.samples = 60;
 	
+	// set play speed
+	action.speed = 2;
+	
 	// play test action
 	this.gameObject.Animator.play('test');
 ````  

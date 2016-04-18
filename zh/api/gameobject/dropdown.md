@@ -9,7 +9,7 @@
 | parent | [qc.Node](CNode.md) | 下拉框的父亲节点 |
 
 ## 描述
-构建一个下拉框组件：[`Dropdown`](CDrodown.md).
+构建一个下拉框组件：[`Dropdown`](CDropdown.md).
 
 ## 范例
 ````

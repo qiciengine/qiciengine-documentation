@@ -12,7 +12,6 @@
 | key | string | Key of resource|
 | url | string | Url of resource. |
 | callback | function | Callback after resource load successful |
-| override | boolean | false by default. Whether to ignore the cached data and force a reload|
 
 ## Description
 Asynchronous load resource。
