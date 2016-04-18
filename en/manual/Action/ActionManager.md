@@ -31,8 +31,9 @@ When an _Action Manager Clip_ file is loaded, the action list of the _Action Man
   
 	3. The buttom of the _Timeline View_ is the _Action Box_ area. See the bellow the red box of picture.  
 	![](image/actionView.png)  
+	The width of box indicates the action's duration of single loop. You can drag the edge of box to modify the play speed of the action.  
 	In the region by scrolling the mouse wheel to zoom in or zoom out timeline. When the display area is exceeded, it will show vertical slider on the right side and horizontal slider on the bottom size, drag the slider bar to view the desired display area.    
-	The width of box indicates the action's duration of single loop. If the action is loop, the box is continuously repeated. See the bellow picture:  
+	If the action is loop, the box is continuously repeated. See the bellow picture:  
 	![](image/loopAction.png)  
 	You can drag the box to modify the start time of action. You can aslo press the left mouse button and drag to select multiple boxes or press _Ctrl + left mouse button_ to select multiple boxes, then reposition these boxes at the same time by dragging them.  
 	By double clicking the box or right-clicking the box, choose the _Open_ menu item of popup menu, it will open the Action Editor or the Action Manager (It depends on the action is the _Action Clip_ or _Action Manager Clip_) to edit the action.   
@@ -52,7 +53,7 @@ When an _Action Manager Clip_ file is loaded, the action list of the _Action Man
 	> Duration: The action's duration of single loop.  
   
 	3. The buttom part is used to show action information panel and event panel.   
-	When select an action box, the action information panel shows. We can modify the following properties of the action: Target Object, Target Locked, Loop.  See the bellow picture:   
+	When select an action box, the action information panel shows. We can modify the following properties of the action: Target Object, Target Locked, Loop, Speed.  See the bellow picture:   
 	![](image/amInfo.png)  
 	When select an action event, the event panel shows, see the bellow picture. The event panel is same as that in the Action Editor. See [Using Action Event](ActionEditor.md#Using-Action-Events).     
 	![](image/eventPanel.png)  

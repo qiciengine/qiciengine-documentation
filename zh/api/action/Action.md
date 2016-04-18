@@ -11,6 +11,7 @@ _动作剪辑_ 文件在游戏中对应的类，该类用于控制 _动作剪辑
 | targetLocked    | boolean   | 目标对象是否锁定          |
 | samples  | int       | 每秒的帧数      |
 | duration | int | 动作单次播放的时长              |
+| speed | int | 动作播放的速度              |
 | loop           | boolean          | 是否循环          |
 
 ## 事件

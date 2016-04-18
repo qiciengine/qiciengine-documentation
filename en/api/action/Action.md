@@ -11,6 +11,7 @@ qc.Action is abstract of _Action Clip_ file. It is responsible for controlling _
 | targetLocked    | boolean   | Whether targetObject is locked.          |
 | samples  | int       | Frame amount per second.      |
 | duration | int | The duration of single loop.              |
+| speed | int | The speed of action.              |
 | loop           | boolean          | Whether action is loop.          |
 
 ## Event
