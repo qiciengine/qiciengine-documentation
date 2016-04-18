@@ -58,7 +58,7 @@ A component for table layout.
 | TableLayout.ALIGN_TOP_RIGHT | Top right  |
 | TableLayout.ALIGN_MIDDLE_LEFT | Middle left   |
 | TableLayout.ALIGN_MIDDLE_CENTER |Middle center  |
-| TableLayout.ALIGN_MIDDLE_RIGHT | Middle left  |
+| TableLayout.ALIGN_MIDDLE_RIGHT | Middle right  |
 | TableLayout.ALIGN_BOTTOM_LEFT | Bottom left  |
 | TableLayout.ALIGN_BOTTOM_CENTER |Bottom center|
 | TableLayout.ALIGN_BOTTOM_RIGHT | Bottom right  |
