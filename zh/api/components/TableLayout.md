@@ -58,7 +58,7 @@
 | TableLayout.ALIGN_TOP_RIGHT | 右上  |
 | TableLayout.ALIGN_MIDDLE_LEFT | 左中  |
 | TableLayout.ALIGN_MIDDLE_CENTER | 中心  |
-| TableLayout.ALIGN_MIDDLE_RIGHT | 左下  |
+| TableLayout.ALIGN_MIDDLE_RIGHT | 右中  |
 | TableLayout.ALIGN_BOTTOM_LEFT | 左下  |
 | TableLayout.ALIGN_BOTTOM_CENTER | 中下  |
 | TableLayout.ALIGN_BOTTOM_RIGHT | 右下  |
