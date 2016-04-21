@@ -171,10 +171,10 @@ QICI编辑器的场景视图、Hierarchy视图、Inspector视图配合动作编�
 	var action = this.gameObject.Animator.getAction('test');
 	
 	// If curveType of x attrib is TweenAbsolute in the action clip, we can set from、to parameters for the action 
-	action.setData('/', qc.PROP_POSITON, 'x', { from : 0, to : 100 });
+	action.setData('/', qc.PROP_POSITION, 'x', { from : 0, to : 100 });
 	
 	// If curveType of x attrib is TweenRelative in the action clip, we can set to parameters for the action 
-	action.setData('/', qc.PROP_POSITON, 'x', { to : 100 });
+	action.setData('/', qc.PROP_POSITION, 'x', { to : 100 });
 	
 	// play test action
 	this.gameObject.Animator.play('test');
