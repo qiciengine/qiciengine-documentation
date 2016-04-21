@@ -8,7 +8,7 @@
 | ------------- |-------------|-------------|
 | game | [qc.Game](../game/README.md) | 游戏实例的引用 |
 | entry | string | 游戏的入口场景名称 |
-| list | object | 游戏的场景列表。key为场景名字，value为场景的资源路径(url) |
+| list | Array | 游戏的场景资源路径url列表。 |
 | loading | boolean | 当前是否正在加载场景中 |
 | current | string | 当前运行中的场景名称 |
 

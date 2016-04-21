@@ -18,9 +18,6 @@ Ellipse: A curve on a plane surrounding two focal points.
 
 ## Example
 ````
-	// Returns the distance from the center of the Ellipse object to the given object
-	ellipse.distance({ x: 5, y: 6});
-
 	// Return true if the given x/y coordinates are within this Ellipse object.
 	ellipse.contains(1, 1);
 ````

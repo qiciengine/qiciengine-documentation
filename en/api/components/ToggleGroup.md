@@ -11,6 +11,7 @@ When using a group reference the group from a Toggle. Only one member of a group
 | toggle | qc.Toggle  |  Currently active toggle |
 | allowSwitchOff | boolean | Is it allowed that no toggle is switched on |
 | toggles | array |  List of managed toggles |
+| onValueChange | qc.Signal |  When current toggle changed, this event will be fired |
 
 ## Manual
 See: [Toggle And ToggleGroup](http://docs.qiciengine.com/manual/Sample/Toggle.html)

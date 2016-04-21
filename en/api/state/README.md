@@ -9,7 +9,7 @@ This class represents a singleton object that can be accessed directly as `game.
 | ------------- |-------------|-------------|
 | game | [qc.Game](../game/README.md) | The local game reference. |
 | entry | string | The entry scene's name. |
-| list | object | The scene list of the game. |
+| list | Array | The scene list of the game. |
 | loading | boolean | Is the scene in loading? |
 | current | string | The current running scene. |
 

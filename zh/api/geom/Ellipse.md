@@ -18,9 +18,6 @@
 
 ## 方法调用范例
 ````
-	// 计算距离
-	ellipse.distance({ x: 5, y: 6});
-
 	// 检测一个点是否在椭圆内
 	ellipse.contains(1, 1);
 ````

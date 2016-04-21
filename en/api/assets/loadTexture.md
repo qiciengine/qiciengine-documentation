@@ -3,7 +3,10 @@
 ## Prototype
 * void loadTexture(url);
 * void loadTexture(url, callback);
-* void loadTexture(key, IMG);
+* void loadTexture(IMG);
+* void loadTexture(IMG, callback);
+* void loadTexture(key, url);
+* void loadTexture(key, url, callback);
 * void loadTexture(key, IMG, callback);
 
 ## Parameter
