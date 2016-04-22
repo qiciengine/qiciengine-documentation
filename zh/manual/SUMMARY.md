@@ -90,4 +90,5 @@
         * [GUI组件](ExtendEditor/Component.md)
     * [后台服务扩展](ExtendEditor/Service.md) 
     * [开放的辅助功能](ExtendEditor/Assistant.md) 
+* [TypeScript支持](TypeScript/README.md)    
 * [发布](Publish/README.md)
