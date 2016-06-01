@@ -15,7 +15,7 @@
 ![](images/import_lock_orientation.png) 
 
 ## LockOrientation
-在需要保持横/竖屏的场景节点（通常是场景根节点）上挂接LockOrientation组件，并指定游戏是横屏还是竖屏。之后当设备发生横竖屏切换时，场景的根节点就会进行相应旋转，以使界面保持原先的排版效果。   
+在需要保持横/竖屏的场景节点（非 UIRoot 节点）上挂接LockOrientation组件，并指定游戏是横屏还是竖屏。之后当设备发生横竖屏切换时，场景的根节点就会进行相应旋转，以使界面保持原先的排版效果。   
 ![](images/inspector_lock_orientation.png)
 
 ### Orientation
