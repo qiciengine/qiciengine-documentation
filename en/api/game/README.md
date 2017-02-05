@@ -1,15 +1,19 @@
 # qc.Game
 
 ## Description
+
 This is the heart of the game, which provides a large part of fast functional access channel.
-The instance of qc.Game is automatically constructed by editor.
+The instance of `qc.Game` is automatically constructed by editor.
 
 ## Prototype
-* qc.Game(width, height, parent, state, transparent, editor, debug, physicsConfig);
-* qc.Game(config);
 
-The game instance does not need to be created manually. It will be automatically in StartGame.html that is created when release game.
+* `qc.Game(width, height, parent, state, transparent, editor, debug, physicsConfig);`
+* `qc.Game(config);`
+
+The game instance does not need to be created manually. It will be automatically created in StartGame.html which is created when a game get [published](http://docs.qiciengine.com/manual/Publish/index.html).
+
 The following sample code for StartGame.html
+
 ````javascript
         qici.loadGame = function() {
         var game = window[qici.config.gameInstance] = new qc.Game({
@@ -39,11 +43,12 @@ The following sample code for StartGame.html
         game.bundleIdentifier = qici.config.bundleIdentifier;
         game.log.important('**** [QICI Engine]Starting game: {0}', qici.config.gameName);
     };
-````    
-\qici.config\_ variable is also defined in StartGame.html. gameInstance variable is 'game' by default. User can configure the game instance name in the editor project settings.
-When using the default 'game' name, you can use the global game variable to refer to the instance of qc.Game.
+```
 
-## Varibles
+`qici.config` variable is also defined in StartGame.html. gameInstance variable is 'game' by default. User can configure the game instance name in the editor project settings.
+When using the default 'game' name, you can use the global game variable to refer to the instance of `qc.Game`.
+
+## Variables
 | Variable name | Description |
 | ------------- |-------------|
 | log: [qc.Log](../log/README.md) | Read only. [Log Management](../log/README.md) |
