@@ -46,4 +46,4 @@ A component that control the position of an object through physics simulation.
 | [angleBetween](rigidbody/angleBetween.md) | Get the angle(in radians) between to objects. |
 
 ## Manual
-[RigidBody](http://docs.zuoyouxi.com/manual/Plugin/Arcade.html)
+[RigidBody](http://docs.qiciengine.com/manual/Plugin/Arcade.html)

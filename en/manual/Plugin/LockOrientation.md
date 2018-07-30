@@ -15,7 +15,7 @@ Lock-Orientation plugin has been integrated in QICI editor as a built-in plugin.
 ![](images/import_lock_orientation.png)   
 
 ## LockOrientation Component
-To use this component, we need to attach it to the node which need to keep the original orientation(usually the root of the scene). After this, when the device switches between portrait and landscape orientation, the node will rotate accordingly, in order to keep the original layout.  
+To use this component, we need to attach it to the node which need to keep the original orientation(usually not UIRoot node). After this, when the device switches between portrait and landscape orientation, the node will rotate accordingly, in order to keep the original layout.  
 ![](images/inspector_lock_orientation.png)
 
 ### Orientation

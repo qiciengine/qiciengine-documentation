@@ -27,4 +27,4 @@ nodeMask.mode = qc.NodeMask.MODE_PIXEL;
 ![](images/mask.png)
 
 ## Demo
-[NodeMask](http://engine.zuoyouxi.com/demo/index.html#Mask)
+[NodeMask](http://engine.qiciengine.com/demo/index.html#anchor_Mask)

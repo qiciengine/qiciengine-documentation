@@ -74,6 +74,7 @@
 	* [Animator Component](Action/Animator.md)  
 	* [Action Editor](Action/ActionEditor.md)  
 	* [Action Manager](Action/ActionManager.md)  
+* [TypeScript Support](TypeScript/README.md)    
 * [Debugging and Profiling](Debug/README.md)  
 * [Editor Extending](ExtendEditor/README.md)
     * [Main Menu Extending](ExtendEditor/Menu.md)    

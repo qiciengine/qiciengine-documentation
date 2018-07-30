@@ -97,5 +97,6 @@
     * [微信小游戏资源管理](Wechat/Resource.md)
     * [微信小游戏开放域](Wechat/OpenDomain.md)
     * [微信小游戏分包](Wechat/SubPackage.md)
+* [TypeScript支持](TypeScript/README.md)    
 * [发布](Publish/README.md)
 
