@@ -11,6 +11,6 @@
 上述说的 dislist.dis 和 assets.md5 文件在发布小游戏时会自动生成，开发者需要做的是：
 * 将生成的 Assets 目录和 dislist.dis 文件上传到服务器
 * 在发布界面中设置远程资源地址
-* 在游戏启动时，先调用 qc.AssetUtil.updateWxResMd5，该接口会下载 dislist.dist 进行版本比对、更新资源 md5 信息，并回调中返回 dislist 文件的内容
+* 在游戏启动时，先调用 [qc.AssetUtil.updateWxResMd5](http://docs.zuoyouxi.com/api/assets/updateWxResMd5.html)，该接口会下载 dislist.dist 进行版本比对、更新资源 md5 信息，并回调中返回 dislist 文件的内容
 * 之后再进行资源加载等游戏逻辑，加载资源的 url 地址以 'Assets/' 目录开始
 

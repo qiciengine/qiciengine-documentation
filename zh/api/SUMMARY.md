@@ -189,6 +189,8 @@
         * [get](assets/get.md)
         * [post](assets/post.md)
         * [getXHR](assets/getXHR.md)
+        * [createAtlasFromCanvas](assets/createAtlasFromCanvas.md)
+        * [updateWxResMd5](assets/updateWxResMd5.md)
     * [Atlas](assets/Atlas.md)
         * [getFrame](assets/atlas_getFrame.md)
         * [getPadding](assets/atlas_getPadding.md)

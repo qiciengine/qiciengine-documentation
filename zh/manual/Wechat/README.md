@@ -4,8 +4,8 @@
 支持微信小游戏的远程资源加载、缓存及版本控制。	
 支持微信开放域和分包加载。	
 
-[Game Demo](http://engine.zuoyouxi.com/demo/index.html#anchor_Wechat)  
 微信小游戏的 demo 包含小游戏开放数据域实现、分包下载更新等内容。  
+[Game Demo](http://engine.zuoyouxi.com/demo/index.html#anchor_Wechat)  
 
 * [发布微信小游戏](Publish.md)  
 * [微信小游戏资源管理](Resource.md)  

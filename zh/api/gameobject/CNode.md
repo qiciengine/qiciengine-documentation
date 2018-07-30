@@ -48,6 +48,7 @@ var node = new qc.game.add.node(parent);
 | rect | [qc.Rectangle](../geom/Rectangle.md) | 相对父亲节点的矩形包围盒 |
 | worldTransform | [qc.Matrix](../geom/Matrix.md) | 在世界中的最终变换矩阵 |
 | localBounds | [qc.Rectangle](../geom/Rectangle.md) | 节点自身的显示范围 |
+| localZOrder | number | 节点本地 zorder 顺序，会根据该值从小到大进行重新排序 |
 | onRelayout | [qc.Signal](../signal/README.md) | 节点重新布局的事件通知 |
 
 ### 交互相关

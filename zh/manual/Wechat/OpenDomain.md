@@ -17,8 +17,8 @@
 ## 主域和子域的整合注意事项 
 * 子域中的 ui 布局要与主域中的 ui 布局保持一致（在主域中要有一个 UIImage 节点区域，用于绘制子域需要显示到主域的内容），需要计算主域 UIImage 节点区域
 与子域需要显示内容区域的对应关系，以便能正确的将子域指定区域的 ui 绘制到主域 canvas 对应区域上  
-* 在主域中通过 qc.AssetUtil.createAtlasFromCanvas 接口将 sharedCanvas 转成 qc.Atlas 对象，将其赋给 UIImage 节点，即可显示 sharedCanvas 内容  
-* 如果子域有操作性功能，比如滑动、拖拽、点击等操作，那么在主域中就需要在 update 中实时调用 qc.AssetUtil.createAtlasFromCanvas 接口获取最新的 sharedCanvas
+* 在主域中通过 [qc.AssetUtil.createAtlasFromCanvas](http://docs.zuoyouxi.com/api/assets/createAtlasFromCanvas.html) 接口将 sharedCanvas 转成 qc.Atlas 对象，将其赋给 UIImage 节点，即可显示 sharedCanvas 内容  
+* 如果子域有操作性功能，比如滑动、拖拽、点击等操作，那么在主域中就需要在 update 中实时调用 [qc.AssetUtil.createAtlasFromCanvas](http://docs.zuoyouxi.com/api/assets/createAtlasFromCanvas.html) 接口获取最新的 sharedCanvas
 内容来刷新 UIImage  
 
 ## Demo
