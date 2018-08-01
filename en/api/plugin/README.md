@@ -3,36 +3,40 @@
 ## Description
 The Plugin Manager is responsible for the loading, running and unloading of Plugins.
 
-## Define a pulgin
+## Define a plugin
 The templete:
 ````
-	PluginTemplet = function(game, parent) {};
-	PluginTemplet.prototype = {
-	    preUpdate : function() {
-	        
-	    },
+	PluginTemplete = function(game, parent) {};
 
-	    update : function() {
-	        
-	    },
+	PluginTemplete.prototype.init = function() {
 
-	    postUpdate : function() {
-	        
-	    },
+	};
 
-	    render : function() {
-	        
-	    },
+	PluginTemplete.prototype.preUpdate = function() {
 
-	    postRender : function() {
-	        
-	    },
+	};
 
-	    destroy : function() {
-	        
-	    }
-	}
-	PluginTemplet.prototype.constructor = qc.NodeScheduler;
+	PluginTemplete.prototype.update = function() {
+			console.log('update');
+	};
+
+	PluginTemplete.prototype.postUpdate = function() {
+
+	};
+
+	PluginTemplete.prototype.render = function() {
+
+	};
+
+	PluginTemplete.prototype.postRender = function() {
+
+	};
+
+	PluginTemplete.prototype.destroy = function() {
+
+	};
+
+	PluginTemplete.prototype.constructor = qc.NodeScheduler;
 ````
 
 ## Variables
