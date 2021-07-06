@@ -19,7 +19,7 @@ Turn a simple label into an interactable input field.
 | placeholderText | string | The placeholder text |
 | characterLimit | number | How many characters the input field is limited to. -1 = infinite. |
 | overflow | bool | Text flows freely outside the element. Default: true. |
-| isFocused | bool | ture:is editing |
+| isFocused | bool | True when editing |
 | textComponent | qc.Node | The reference of input text node. |
 | placeholder | qc.Node | The reference of placeholder text node. |
 
